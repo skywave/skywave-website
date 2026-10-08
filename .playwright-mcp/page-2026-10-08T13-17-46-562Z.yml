@@ -1,0 +1,199 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - img "Skywave Technologies" [ref=f1e4]
+    - navigation [ref=f1e5]:
+      - link "Home" [ref=f1e6] [cursor=pointer]:
+        - /url: index
+      - link "About" [ref=f1e7] [cursor=pointer]:
+        - /url: about
+      - link "Solutions" [ref=f1e8] [cursor=pointer]:
+        - /url: index#offerings
+      - link "Why Us" [ref=f1e9] [cursor=pointer]:
+        - /url: index#why
+      - link "Resources" [ref=f1e10] [cursor=pointer]:
+        - /url: https://www.skywavetech.cloud/blog/our-blog-1
+      - link "Contact" [ref=f1e11] [cursor=pointer]:
+        - /url: https://www.skywavetech.cloud/
+  - generic [ref=f1e12]:
+    - generic [ref=f1e13]:
+      - generic [ref=f1e15]:
+        - generic [ref=f1e16]:
+          - text: Making business communication
+          - strong [ref=f1e17]: Simple
+          - text: ","
+          - strong [ref=f1e18]: Easy
+          - text: ","
+          - strong [ref=f1e19]: Relevant
+        - heading "Connecting businesses with communication that just works." [level=1] [ref=f1e20]
+        - paragraph [ref=f1e21]: Skywave Technologies provides secure, scalable and tailored communication solutions from VoIP and contact center platforms to end-to-end business telephony.
+      - generic [ref=f1e23]:
+        - heading "Authorized Yeastar Distributor" [level=1] [ref=f1e24]
+        - paragraph [ref=f1e25]: We provide enterprise-grade PBX, gateways, and UC solutions backed with certified support and expert deployment.
+      - generic [ref=f1e27]:
+        - heading "End-to-End Communication Solutions" [level=1] [ref=f1e28]
+        - paragraph [ref=f1e29]: From cloud PBX to on-site IP telephony, our team ensures seamless deployment, integration, and ongoing support.
+    - generic [ref=f1e30]:
+      - generic [ref=f1e31] [cursor=pointer]: ❮
+      - generic [ref=f1e32] [cursor=pointer]: ❯
+    - generic [ref=f1e33]:
+      - generic [ref=f1e34] [cursor=pointer]
+      - generic [ref=f1e35] [cursor=pointer]
+      - generic [ref=f1e36] [cursor=pointer]
+  - generic [ref=f1e37]:
+    - heading "About Skywave" [level=2] [ref=f1e39]
+    - generic [ref=f1e40]:
+      - paragraph [ref=f1e41]: Skywave Technologies delivers bespoke business communication systems across Zambia and beyond. We specialise in VoIP deployments, contact center solutions, and managed communication services that help businesses communicate reliably and reduce costs.
+      - link "Know More" [ref=f1e42] [cursor=pointer]:
+        - /url: about.php
+  - generic [ref=f1e43]:
+    - heading "What We Do Best" [level=2] [ref=f1e45]
+    - generic [ref=f1e46]:
+      - generic [ref=f1e47]:
+        - heading "Products" [level=3] [ref=f1e48]
+        - paragraph [ref=f1e49]: Hardware & software products including IP PBX, gateways, and endpoints from trusted brands.
+        - link "View Products" [ref=f1e50] [cursor=pointer]:
+          - /url: products
+      - generic [ref=f1e51]:
+        - heading "Services" [level=3] [ref=f1e52]
+        - paragraph [ref=f1e53]: Installation, integration, and managed VoIP services tailored to your business.
+        - link "Explore Services" [ref=f1e54] [cursor=pointer]:
+          - /url: services
+      - generic [ref=f1e55]:
+        - heading "Solutions" [level=3] [ref=f1e56]
+        - paragraph [ref=f1e57]: Contact center, call routing, and unified communication systems for customer-focused businesses.
+        - link "See Solutions" [ref=f1e58] [cursor=pointer]:
+          - /url: solutions
+  - generic [ref=f1e59]:
+    - heading "Why Choose Skywave" [level=2] [ref=f1e61]
+    - generic [ref=f1e62]:
+      - generic [ref=f1e63]:
+        - heading "Expertise" [level=3] [ref=f1e64]
+        - paragraph [ref=f1e65]: Our team of skilled professionals is experienced in diverse business communication solutions.
+      - generic [ref=f1e66]:
+        - heading "Customization" [level=3] [ref=f1e67]
+        - paragraph [ref=f1e68]: We tailor our solutions to align with your business goals and challenges.
+      - generic [ref=f1e69]:
+        - heading "Reliable Support" [level=3] [ref=f1e70]
+        - paragraph [ref=f1e71]: Ongoing support to ensure systems operate smoothly.
+      - generic [ref=f1e72]:
+        - heading "Proven Track Record" [level=3] [ref=f1e73]
+        - paragraph [ref=f1e74]: Trusted by businesses across Zambia and beyond.
+  - generic [ref=f1e75]:
+    - heading "Our Impact in Numbers" [level=2] [ref=f1e77]
+    - generic [ref=f1e78]:
+      - generic [ref=f1e79]:
+        - heading "0+" [level=3] [ref=f1e80]
+        - paragraph [ref=f1e81]: Customers
+      - generic [ref=f1e82]:
+        - heading "0+" [level=3] [ref=f1e83]
+        - paragraph [ref=f1e84]: Users
+      - generic [ref=f1e85]:
+        - heading "0+" [level=3] [ref=f1e86]
+        - paragraph [ref=f1e87]: Partners
+      - generic [ref=f1e88]:
+        - heading "0+" [level=3] [ref=f1e89]
+        - paragraph [ref=f1e90]: Projects Delivered
+  - generic [ref=f1e91]:
+    - heading "Our Customers" [level=2] [ref=f1e93]
+    - generic [ref=f1e95]:
+      - img "Proflight Zambia" [ref=f1e96]
+      - img "Solar Panda" [ref=f1e97]
+      - img "IHM" [ref=f1e98]
+      - img "JLR" [ref=f1e99]
+      - img "Afriseed" [ref=f1e100]
+      - img "Alpha Direct" [ref=f1e101]
+      - img "Consolidated Gold Company of Zambia" [ref=f1e102]
+      - img "Continuum" [ref=f1e103]
+      - img "TIZ" [ref=f1e104]
+      - img "Infratel" [ref=f1e105]
+      - img "Canterbury" [ref=f1e106]
+      - img "Yango" [ref=f1e107]
+      - img "Wonderfulgroup" [ref=f1e108]
+      - img "Chaminuka" [ref=f1e109]
+      - img "Kwacha Loans Limited" [ref=f1e110]
+      - img "FREMLEX" [ref=f1e111]
+      - img "AMZ" [ref=f1e112]
+      - img "EcoBank" [ref=f1e113]
+      - img "Vitalite" [ref=f1e114]
+      - img "general" [ref=f1e115]
+      - img "cfu" [ref=f1e116]
+      - img "Titan" [ref=f1e117]
+      - img "NICO" [ref=f1e118]
+      - img "SIMBA" [ref=f1e119]
+      - img "DLP" [ref=f1e120]
+      - img "STATUS" [ref=f1e121]
+      - img "PIONEER" [ref=f1e122]
+      - img "LOLC" [ref=f1e123]
+      - img "SDA" [ref=f1e124]
+      - img "SHREEJI" [ref=f1e125]
+      - img "UNIFLEX" [ref=f1e126]
+      - img "Proflight Zambia" [ref=f1e127]
+      - img "Solar Panda" [ref=f1e128]
+      - img "IHM" [ref=f1e129]
+      - img "JLR" [ref=f1e130]
+      - img "Afriseed" [ref=f1e131]
+      - img "Alpha Direct" [ref=f1e132]
+      - img "Consolidated Gold Company of Zambia" [ref=f1e133]
+      - img "Continuum" [ref=f1e134]
+      - img "TIZ" [ref=f1e135]
+      - img "Infratel" [ref=f1e136]
+      - img "Canterbury" [ref=f1e137]
+      - img "Yango" [ref=f1e138]
+      - img "Wonderfulgroup" [ref=f1e139]
+      - img "Chaminuka" [ref=f1e140]
+      - img "Kwacha Loans Limited" [ref=f1e141]
+      - img "FREMLEX" [ref=f1e142]
+      - img "AMZ" [ref=f1e143]
+      - img "EcoBank" [ref=f1e144]
+      - img "Vitalite" [ref=f1e145]
+      - img "general" [ref=f1e146]
+      - img "cfu" [ref=f1e147]
+      - img "Titan" [ref=f1e148]
+      - img "NICO" [ref=f1e149]
+      - img "SIMBA" [ref=f1e150]
+      - img "DLP" [ref=f1e151]
+      - img "STATUS" [ref=f1e152]
+      - img "PIONEER" [ref=f1e153]
+      - img "LOLC" [ref=f1e154]
+      - img "SDA" [ref=f1e155]
+      - img "SHREEJI" [ref=f1e156]
+      - img "UNIFLEX" [ref=f1e157]
+  - generic [ref=f1e158]:
+    - heading "Partners & Brands" [level=2] [ref=f1e160]
+    - generic [ref=f1e161]:
+      - generic [ref=f1e162]:
+        - img "Fanvil" [ref=f1e163]
+        - paragraph [ref=f1e164]: Authorized Solution Partner
+      - generic [ref=f1e165]:
+        - img "Yealink" [ref=f1e166]
+        - paragraph [ref=f1e167]: Partner
+      - generic [ref=f1e168]:
+        - img "Grandstream" [ref=f1e169]
+        - paragraph [ref=f1e170]: Partner
+      - generic [ref=f1e171]:
+        - img "Sangoma" [ref=f1e172]
+        - paragraph [ref=f1e173]: Partner
+      - generic [ref=f1e174]:
+        - img "Yeastar Partner" [ref=f1e175]
+        - paragraph [ref=f1e176]: Authorized Distributor
+      - generic [ref=f1e177]:
+        - img "Dell" [ref=f1e178]
+        - paragraph [ref=f1e179]: Partner
+      - generic [ref=f1e180]:
+        - img "HP" [ref=f1e181]
+        - paragraph [ref=f1e182]: Partner
+  - contentinfo [ref=f1e183]:
+    - generic [ref=f1e184]:
+      - generic [ref=f1e185]: SKYWAVE
+      - generic [ref=f1e186]:
+        - link "About" [ref=f1e187] [cursor=pointer]:
+          - /url: about.php
+        - link "Solutions" [ref=f1e188] [cursor=pointer]:
+          - /url: "#offerings"
+        - link "Why Us" [ref=f1e189] [cursor=pointer]:
+          - /url: "#why"
+        - link "Resources" [ref=f1e190] [cursor=pointer]:
+          - /url: https://www.skywavetech.cloud/blog/our-blog-1
+      - generic [ref=f1e191]:
+        - generic [ref=f1e192]: Contact Us
+        - generic [ref=f1e193]: Privacy Policy

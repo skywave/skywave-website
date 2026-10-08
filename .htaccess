@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# dose not apply to existing directories, meaning that if the folder exists on the server then don't change anything and don't run the rule.
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# check for file in directory with .php/html extension
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+# here we actually show the page that has the .php/html extension
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+# directory browsing
+Options -Indexes
