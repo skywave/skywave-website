@@ -26,5 +26,11 @@ To run the website locally for development and testing:
 The MySQL database schema and initial data dump are located at:
 `app/database/skywave_db.sql`
 
+## Security
+
+Requires a patched PHP release (8.2.35+, 8.3.36+, 8.4.27+, or 8.5.12+) due to
+CVE-2026-109618 and CVE-2026-109619. See [SECURITY.md](SECURITY.md) for the
+upgrade runbook and interim mitigation.
+
 ---
 © Skywave. All rights reserved.
