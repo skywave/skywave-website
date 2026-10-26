@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Skywave Website - PHP Security Update Guide</title>
+<style>
+  @page { size: A4; margin: 20mm 18mm; }
+  body { font-family: "DejaVu Sans", Arial, sans-serif; color: #1a1a1a; font-size: 11pt; line-height: 1.5; }
+  h1 { font-size: 20pt; color: #0b3d6b; margin: 0 0 2mm 0; }
+  h2 { font-size: 13.5pt; color: #0b3d6b; margin: 7mm 0 2mm 0; border-bottom: 1px solid #c9d6e3; padding-bottom: 1mm; }
+  h3 { font-size: 11.5pt; margin: 5mm 0 1.5mm 0; }
+  p { margin: 0 0 2.5mm 0; }
+  .subtitle { color: #555; font-size: 10.5pt; margin-bottom: 6mm; }
+  .meta { font-size: 9pt; color: #666; margin-bottom: 8mm; }
+  .box { border: 1px solid #c9d6e3; background: #f3f7fb; padding: 3mm 4mm; margin: 3mm 0; }
+  .warn { border: 1px solid #e3c9c9; background: #fbf3f3; padding: 3mm 4mm; margin: 3mm 0; }
+  ol, ul { margin: 0 0 3mm 0; padding-left: 6mm; }
+  li { margin-bottom: 1.5mm; }
+  code { font-family: "DejaVu Sans Mono", monospace; font-size: 9.5pt; background: #eef2f6; padding: 0 1mm; }
+  pre { font-family: "DejaVu Sans Mono", monospace; font-size: 9pt; background: #eef2f6; border: 1px solid #d5dee7; padding: 3mm; white-space: pre-wrap; }
+  table { border-collapse: collapse; width: 100%; margin: 2mm 0 4mm 0; }
+  th, td { border: 1px solid #c9d6e3; padding: 2mm 3mm; text-align: left; font-size: 10pt; }
+  th { background: #e8eff6; }
+  .fill { background: #fff6cc; }
+  .footer { margin-top: 10mm; border-top: 1px solid #c9d6e3; padding-top: 3mm; font-size: 9pt; color: #666; }
+  .pagebreak { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<h1>PHP Security Update Guide</h1>
+<p class="subtitle">Skywave Website &mdash; upgrading PHP on cPanel to fix CVE-2026-109618 and CVE-2026-109619</p>
+<p class="meta">Prepared: 26 October 2026 &nbsp;|&nbsp; Repository: skywave/skywave-website &nbsp;|&nbsp; Branch: skywave-desktop</p>
+
+<h2>1. The short version</h2>
+<p>There is a serious security flaw in the software that runs our website (PHP). An attacker could use it to take control of the server that hosts the website, without needing a password.</p>
+<p>The organisation that makes PHP released a fix on 21 October 2026. Security agencies around the world (CISA, CERT-EU, NCSC) are advising everyone to update immediately.</p>
+<div class="box">
+  <strong>In one sentence:</strong> We need to switch the website's PHP version to a fixed release. It is a settings change in cPanel and takes about five minutes.
+</div>
+
+<h2>2. What has already been done</h2>
+<ul>
+  <li><strong>Code check:</strong> we reviewed the website's code. It works correctly with the fixed PHP versions &mdash; nothing needs to be rewritten.</li>
+  <li><strong>Temporary protection:</strong> a request-size limit was added to the website configuration, which makes one of the attacks harder. This is a stop-gap, not the real fix.</li>
+  <li><strong>Instructions:</strong> this document, plus a technical note (<code>SECURITY.md</code>) in the repository.</li>
+</ul>
+
+<h2>3. What still needs to happen</h2>
+<p>Someone with the <strong>cPanel login</strong> (the website hosting account) must switch the website to a fixed PHP version. The safe versions are:</p>
+<table>
+  <tr><th>PHP version</th><th>Status</th></tr>
+  <tr><td>8.5.12</td><td>Fixed</td></tr>
+  <tr><td>8.4.27</td><td>Fixed</td></tr>
+  <tr><td>8.3.36</td><td>Fixed &mdash; recommended</td></tr>
+  <tr><td>8.2.35</td><td>Fixed (minimum)</td></tr>
+  <tr><td>8.1 and older</td><td>No longer supported &mdash; must be upgraded</td></tr>
+</table>
+<div class="warn">
+  <strong>Note:</strong> these flaws are inside PHP itself. They cannot be fixed from the GitHub repository. Only a PHP upgrade on the hosting server removes the risk.
+</div>
+
+<h2 class="pagebreak">4. Step-by-step in cPanel</h2>
+<p>These steps are for whoever holds the cPanel account. No programming is involved.</p>
+
+<h3>Step 1 &mdash; Log in to cPanel</h3>
+<p>Open the cPanel address provided by the hosting company. It usually looks like <code>https://[DOMAIN]/cpanel</code> or comes from the hosting provider's client area. Enter the username and password.</p>
+
+<h3>Step 2 &mdash; Open the PHP tool</h3>
+<p>In the <em>Software</em> section, look for <strong>MultiPHP Manager</strong>. Some hosts call it <strong>Select PHP Version</strong>. You can also type &ldquo;PHP&rdquo; in the search box at the top of cPanel.</p>
+
+<h3>Step 3 &mdash; Select the website</h3>
+<p>A list of domains will appear. Tick the box next to the domain that runs our website: <span class="fill">[DOMAIN]</span></p>
+
+<h3>Step 4 &mdash; Change the PHP version</h3>
+<ul>
+  <li><strong>MultiPHP Manager:</strong> in the &ldquo;PHP Version&rdquo; dropdown choose <strong>8.3</strong>, then click <strong>Apply</strong>.</li>
+  <li><strong>Select PHP Version:</strong> open the <strong>PHP</strong> tab, choose <strong>8.3</strong>, and make sure the boxes for <code>mysqli</code>, <code>mail</code> and <code>openssl</code> are ticked. Then save.</li>
+</ul>
+<p>If 8.3 is not listed, choose 8.4 or 8.2 instead &mdash; as long as it is 8.2.35 or newer.</p>
+
+<h3>Step 5 &mdash; Confirm the version</h3>
+<p>The domain list should now show the new version. The exact number should be <strong>8.3.36</strong> or higher (or the matching 8.4 / 8.5 patch level).</p>
+
+<h3>Step 6 &mdash; Quick technical check (optional)</h3>
+<p>Create a file named <code>version-check.php</code> in the website's main folder containing exactly this line:</p>
+<pre>&lt;?php echo PHP_VERSION; ?&gt;</pre>
+<p>Open <code>https://[DOMAIN]/version-check.php</code> in a browser. It should show a version such as <code>8.3.36</code>. <strong>Delete the file immediately afterwards.</strong></p>
+
+<h3>Step 7 &mdash; Test the website</h3>
+<p>Open the website and submit the booking form. You should see the &ldquo;Thank you, your booking has been received&rdquo; message, and the confirmation email should arrive.</p>
+
+<h3>Step 8 &mdash; If something goes wrong</h3>
+<p>Nothing is permanent. Go back to MultiPHP Manager, select the previous PHP version, and click Apply. The website returns to how it was.</p>
+
+<h2>5. If you do not have the cPanel login</h2>
+<p>Send the message below to the person or company who manages the hosting account:</p>
+<div class="box">
+  <p><strong>Subject:</strong> Urgent &mdash; patch PHP for CVE-2026-109618 / CVE-2026-109619</p>
+  <p>On 21 October 2026 the PHP project disclosed two critical unauthenticated remote code execution vulnerabilities, CVE-2026-109618 and CVE-2026-109619 (severity 9.2, known as &ldquo;php2shell&rdquo;). They affect all PHP versions from 5.4 through 8.5.11, including PHP-FPM and mod_php. CISA and CERT-EU recommend patching internet-facing systems immediately.</p>
+  <p>Please upgrade the PHP version serving the Skywave website to one of:</p>
+  <ul>
+    <li>PHP 8.5.12</li>
+    <li>PHP 8.4.27</li>
+    <li>PHP 8.3.36</li>
+    <li>PHP 8.2.35</li>
+  </ul>
+  <p>PHP 8.1 and older are end-of-life and will not be patched, so 8.2.35 or newer is required. The website code has been reviewed and is compatible with PHP 8.2 to 8.5; no application changes are needed. After the upgrade, please confirm the active version so we can run verification tests.</p>
+</div>
+
+<h2>6. References</h2>
+<ul>
+  <li>PHP security releases: https://www.php.net/archive/2026.php</li>
+  <li>CISA alert: https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching</li>
+  <li>CERT-EU advisory: https://www.cert.europa.eu/publications/security-advisories/2026-018/</li>
+</ul>
+
+<div class="footer">
+  Skywave &mdash; PHP Security Update Guide. Prepared 26 October 2026. Companion technical document: SECURITY.md in the website repository.
+</div>
+
+</body>
+</html>
