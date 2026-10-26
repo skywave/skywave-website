@@ -11,3 +11,8 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 
 # directory browsing
 Options -Indexes
+
+# Interim mitigation for CVE-2026-109618 ("php2shell" OOM RCE).
+# Caps request bodies at 1 MB to reduce the OOM-trigger surface until the
+# server is upgraded to a patched PHP release. See SECURITY.md.
+LimitRequestBody 1048576
