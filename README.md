@@ -14,12 +14,18 @@ Official web application and platform for **Skywave**, providing enterprise tele
 To run the website locally for development and testing:
 
 1. Ensure PHP is installed on your system.
-2. Start the built-in PHP development server in the project root:
+2. Start the built-in PHP development server in the project root, using the
+   development router:
    ```bash
-   php -S localhost:8000
+   php -S localhost:8000 router.php
    ```
 3. Open your web browser and navigate to:
    `http://localhost:8000`
+
+The built-in server does not process `.htaccess`. `router.php` reproduces the
+extensionless URL rewriting (for example `/fishafrica` → `fishafrica.php`) so
+navigation behaves the same locally as it does on Apache. Direct URLs such as
+`http://localhost:8000/fishafrica.php` also work without the router.
 
 ## Database
 

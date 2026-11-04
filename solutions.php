@@ -48,7 +48,7 @@
         <a href="index#offerings">Solutions</a>
         <a href="index#why">Why Us</a>
         <a href="https://www.skywavetech.cloud/blog/our-blog-1">Resources</a>
-        <a href="fishafrica.php">Fish Africa</a>
+        <a href="fishafrica">Fish Africa</a>
         <a href="https://www.skywavetech.cloud/" class="contact-btn">Contact</a>
       </nav>
       <button class="hamburger" id="menuBtn">
@@ -110,7 +110,7 @@
           <a href="#offerings">Solutions</a>
           <a href="#why">Why Us</a>
           <a href="https://www.skywavetech.cloud/blog/our-blog-1">Resources</a>
-          <a href="fishafrica.php">Fish Africa</a>
+          <a href="fishafrica">Fish Africa</a>
         </div>
         <div class="footer-right">
           <div>Contact Us</div>

@@ -37,7 +37,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe all animated elements
-document.querySelectorAll(".fa-card, .fa-journey-step, .fa-feature-card").forEach(el => {
+document.querySelectorAll(".fa-card, .fa-feature-card, .fa-audience-item").forEach(el => {
   el.style.opacity = 0;
   el.style.transform = "translateY(20px)";
   el.style.transition = "opacity 0.6s ease, transform 0.6s ease";
