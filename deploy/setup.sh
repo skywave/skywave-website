@@ -35,18 +35,29 @@ echo "==> Building and starting the website (first time takes a few minutes)"
 docker compose -f deploy/compose.yaml --env-file "$ENV" build --pull
 docker compose -f deploy/compose.yaml --env-file "$ENV" up -d --remove-orphans
 
-v=$(docker compose -f deploy/compose.yaml --env-file "$ENV" exec -T web php -r 'echo PHP_VERSION;')
-if php_ok=$(docker compose -f deploy/compose.yaml --env-file "$ENV" exec -T web php -r 'exit(version_compare(PHP_VERSION, "8.3.36", ">=") ? 0 : 1);'); then
-  echo "==> PHP $v (patched)"
-else
-  echo "!!  PHP $v is older than 8.3.36 (CVE-2026-109618/109619). Run: sudo bash deploy/update.sh --force"
-fi
-
 echo "==> Following GitHub: checking every minute"
 install -m 644 deploy/skywave-website-update.service deploy/skywave-website-update.timer /etc/systemd/system/
 sed -i "s|/opt/skywave-website|$DIR|g" /etc/systemd/system/skywave-website-update.service
 systemctl daemon-reload
 systemctl enable --now skywave-website-update.timer >/dev/null
+
+# Is the website container up? (Apache stops at once on a settings error)
+dc() { docker compose -f deploy/compose.yaml --env-file "$ENV" "$@"; }
+for i in $(seq 20); do
+  [ "$(docker inspect -f '{{.State.Running}} {{.State.Restarting}}' "$(dc ps -q web)" 2>/dev/null)" = "true false" ] && break
+  sleep 2
+done
+if [ "$(docker inspect -f '{{.State.Running}} {{.State.Restarting}}' "$(dc ps -q web)" 2>/dev/null)" != "true false" ]; then
+  echo "!!  The website container is not running. Its log:"
+  dc logs --tail 20 web
+  exit 1
+fi
+v=$(dc exec -T web php -r 'echo PHP_VERSION;')
+if dc exec -T web php -r 'exit(version_compare(PHP_VERSION, "8.3.36", ">=") ? 0 : 1);'; then
+  echo "==> PHP $v (patched)"
+else
+  echo "!!  PHP $v is older than 8.3.36 (CVE-2026-109618/109619). Run: sudo bash deploy/update.sh --force"
+fi
 
 port=$(grep '^WEB_PORT=' "$ENV" | cut -d= -f2)
 ip=$(hostname -I | awk '{print $1}')

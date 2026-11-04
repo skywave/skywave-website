@@ -9,6 +9,7 @@ RUN apt-get update \
  && a2enmod rewrite headers
 
 COPY deploy/apache-site.conf /etc/apache2/sites-available/000-default.conf
+COPY deploy/apache-global.conf /etc/apache2/conf-enabled/zz-skywave.conf
 COPY deploy/php.ini /usr/local/etc/php/conf.d/skywave.ini
 COPY deploy/entrypoint.sh /usr/local/bin/skywave-entrypoint
 RUN chmod 755 /usr/local/bin/skywave-entrypoint
