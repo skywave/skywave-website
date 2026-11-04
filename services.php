@@ -6,10 +6,8 @@
 <title>Skywave Services | Professional IT Services</title>
 <meta name="description" content="Explore Skywave's professional IT services to help your business leverage technology for growth, efficiency, and innovation.">
   <link rel="stylesheet" href="public/css/services.css" type="text/css" media="all">
- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="public/images/logo/favicon.png">
+ <link rel="icon" type="image/png" href="public/images/logo/favicon.png">
+ <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <!-- Organization Schema -->
     <script type="application/ld+json">
@@ -18,7 +16,7 @@
             "@type": "Company",
             "name": "Skywave Technologies",
             "url": "https://skywave.com",
-            "logo": "https://skywave.com/public/images/logo/FullLogo_Transparent.png",
+            "logo": "https://skywave.com/public/images/logo/skywave-tech-logo.webp",
             "sameAs": [
                 "https://www.facebook.com/profile.php?id="
             ]
@@ -40,7 +38,7 @@
     <!-- Navbar -->
     <header class="transparent" id="navbar">
       <div class="logo">
-        <img src="public/images/logo/Skywave Tech Logo.webp" alt="Skywave Technologies">
+        <img src="public/images/logo/skywave-tech-logo.webp" alt="Skywave Technologies">
       </div>
       <nav id="navMenu">
         <a href="index">Home</a>

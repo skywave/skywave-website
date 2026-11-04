@@ -15,7 +15,7 @@
  * Not used in production: Apache applies .htaccess there.
  */
 
-$path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) ?: '/';
+$path = rawurldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) ?: '/');
 $file = __DIR__ . $path;
 
 // Let the built-in server handle real files (CSS, JS, images, .php, etc.).

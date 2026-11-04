@@ -6,10 +6,8 @@
   <title>Skywave — About Us</title>
   <meta name="description" content="Skywave Technologies provides reliable, secure, and scalable business communication solutions — from VoIP to contact center systems.">
   <link rel="stylesheet" href="public/css/about.css" type="text/css" media="all">
-   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="public/images/logo/favicon.png">
+   <link rel="icon" type="image/png" href="public/images/logo/favicon.png">
+   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <!-- Organization Schema -->
     <script type="application/ld+json">
@@ -18,7 +16,7 @@
             "@type": "Company",
             "name": "Skywave Technologies",
             "url": "https://skywave.com",
-            "logo": "https://skywave.com/public/images/logo/FullLogo_Transparent.png",
+            "logo": "https://skywave.com/public/images/logo/skywave-tech-logo.webp",
             "sameAs": [
                 "https://www.facebook.com/profile.php?id="
             ]
@@ -40,7 +38,7 @@
     <!-- Navbar -->
     <header id="navbar">
         <div class="logo">
-        <img src="public/images/logo/Skywave Tech Logo.webp" alt="Skywave Technologies">
+        <img src="public/images/logo/skywave-tech-logo.webp" alt="Skywave Technologies">
         </div>
         <nav id="navMenu">
         <a href="index">Home</a>
