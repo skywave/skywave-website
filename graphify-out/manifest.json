@@ -1,0 +1,572 @@
+{
+  "about.php": {
+    "mtime": 1777512756.0,
+    "seen": 1793768732.250232,
+    "ast_hash": "f4638a7776e455d524d6ec4ad29fdecf",
+    "semantic_hash": "f4638a7776e455d524d6ec4ad29fdecf"
+  },
+  "app/processes/booking_process.php": {
+    "mtime": 1793007475.664123,
+    "seen": 1793768732.2502353,
+    "ast_hash": "6bc4f5fde989bb2ae38c61ae17803b3a",
+    "semantic_hash": "6bc4f5fde989bb2ae38c61ae17803b3a"
+  },
+  "index.php": {
+    "mtime": 1791468141.783632,
+    "seen": 1793768732.250237,
+    "ast_hash": "390740dba1ad18fdfee12e743b1628b7",
+    "semantic_hash": "390740dba1ad18fdfee12e743b1628b7"
+  },
+  "products.php": {
+    "mtime": 1771972330.0,
+    "seen": 1793768732.2502377,
+    "ast_hash": "f659bcf41723344e5dcfcf4aa37ef890",
+    "semantic_hash": "f659bcf41723344e5dcfcf4aa37ef890"
+  },
+  "public/js/about.js": {
+    "mtime": 1771989308.0,
+    "seen": 1793768732.2502384,
+    "ast_hash": "6ee3e629feec102dc9e29521ffb45dd8",
+    "semantic_hash": "6ee3e629feec102dc9e29521ffb45dd8"
+  },
+  "public/js/index.js": {
+    "mtime": 1777523406.0,
+    "seen": 1793768732.2502391,
+    "ast_hash": "81868b1069704ab7a64ecdc3cfa109a8",
+    "semantic_hash": "81868b1069704ab7a64ecdc3cfa109a8"
+  },
+  "public/js/products.js": {
+    "mtime": 1771970264.0,
+    "seen": 1793768732.25024,
+    "ast_hash": "a9dd2e69de7d6f0f44d8b7af33edf8b0",
+    "semantic_hash": "a9dd2e69de7d6f0f44d8b7af33edf8b0"
+  },
+  "public/js/services.js": {
+    "mtime": 1774237050.0,
+    "seen": 1793768732.2502408,
+    "ast_hash": "11de79337b8cbb3574779b31fd9e7063",
+    "semantic_hash": "11de79337b8cbb3574779b31fd9e7063"
+  },
+  "public/js/solutions.js": {
+    "mtime": 1771970264.0,
+    "seen": 1793768732.2502415,
+    "ast_hash": "ffd344c569d1ae348646a4c50f41b4fb",
+    "semantic_hash": "ffd344c569d1ae348646a4c50f41b4fb"
+  },
+  "services.php": {
+    "mtime": 1776828700.0,
+    "seen": 1793768732.2502422,
+    "ast_hash": "9e7fa20ce26b55259256b78988657312",
+    "semantic_hash": "9e7fa20ce26b55259256b78988657312"
+  },
+  "solutions.php": {
+    "mtime": 1776828720.0,
+    "seen": 1793768732.2502427,
+    "ast_hash": "497e2a3c0d23cf8f88a382f815ec1b43",
+    "semantic_hash": "497e2a3c0d23cf8f88a382f815ec1b43"
+  },
+  ".playwright-mcp/page-2026-10-08T13-17-46-562Z.yml": {
+    "mtime": 1791465466.5650556,
+    "seen": 1793768732.250244,
+    "ast_hash": "22d3ac095c73fb6846255ac4d94ca49b",
+    "semantic_hash": "22d3ac095c73fb6846255ac4d94ca49b"
+  },
+  "README.md": {
+    "mtime": 1791470187.2138135,
+    "seen": 1793768732.2502446,
+    "ast_hash": "0708ee248aaab93510ec20a2f743b747",
+    "semantic_hash": "0708ee248aaab93510ec20a2f743b747"
+  },
+  "robots.txt": {
+    "mtime": 1771970252.0,
+    "seen": 1793768732.250245,
+    "ast_hash": "e747d8ae1e55018498a7d25f03784163",
+    "semantic_hash": "e747d8ae1e55018498a7d25f03784163"
+  },
+  "public/documents/skywave company profile new copy.pdf": {
+    "mtime": 1771970268.0,
+    "seen": 1793768732.2502458,
+    "ast_hash": "225e35e97633dfa996fac343c5b0bea9",
+    "semantic_hash": "225e35e97633dfa996fac343c5b0bea9"
+  },
+  ".playwright-mcp/page-2026-10-08T13-18-45-735Z.png": {
+    "mtime": 1791465525.7383218,
+    "seen": 1793768732.2502468,
+    "ast_hash": "ba2f598328d94602761aa0cce67c3904",
+    "semantic_hash": "ba2f598328d94602761aa0cce67c3904"
+  },
+  ".playwright-mcp/partners.png": {
+    "mtime": 1791465545.6687913,
+    "seen": 1793768732.2502472,
+    "ast_hash": "f2e51c40dfcffd8d66a8f320612fbb55",
+    "semantic_hash": "f2e51c40dfcffd8d66a8f320612fbb55"
+  },
+  "public/images/brands/Yeastar_Logo.png": {
+    "mtime": 1777000260.0,
+    "seen": 1793768732.250248,
+    "ast_hash": "6b2aaec27f0e106b9aa89897a9ba9481",
+    "semantic_hash": "6b2aaec27f0e106b9aa89897a9ba9481"
+  },
+  "public/images/brands/dell.svg": {
+    "mtime": 1791212891.6344063,
+    "seen": 1793768732.250249,
+    "ast_hash": "fc4c0d3a7a7c16d6f267fc0c88efb75b",
+    "semantic_hash": "fc4c0d3a7a7c16d6f267fc0c88efb75b"
+  },
+  "public/images/brands/hp.svg": {
+    "mtime": 1791212908.4154859,
+    "seen": 1793768732.2502496,
+    "ast_hash": "86e032cf738e6f51e721eab8e9ab96cf",
+    "semantic_hash": "86e032cf738e6f51e721eab8e9ab96cf"
+  },
+  "public/images/brands/skywave.jpeg": {
+    "mtime": 1771970268.0,
+    "seen": 1793768732.2502506,
+    "ast_hash": "7ba870edf54ee03decf38fff6aa9a695",
+    "semantic_hash": "7ba870edf54ee03decf38fff6aa9a695"
+  },
+  "public/images/brands/yeast.png": {
+    "mtime": 1777519800.0,
+    "seen": 1793768732.250251,
+    "ast_hash": "96411518b342d73e23bd426b41a91b92",
+    "semantic_hash": "96411518b342d73e23bd426b41a91b92"
+  },
+  "public/images/brands/yeastar.jpeg": {
+    "mtime": 1771970266.0,
+    "seen": 1793768732.250252,
+    "ast_hash": "98c7c8890159974d074ece815027f008",
+    "semantic_hash": "98c7c8890159974d074ece815027f008"
+  },
+  "public/images/brands/yeastar2.jpeg": {
+    "mtime": 1771970268.0,
+    "seen": 1793768732.2502525,
+    "ast_hash": "b9ea5f788a3162fa7bf80ef168e56b95",
+    "semantic_hash": "b9ea5f788a3162fa7bf80ef168e56b95"
+  },
+  "public/images/heroslide/WhatsApp Image 2026-04-20 at 3.39.57 PM.jpeg": {
+    "mtime": 1776816240.0,
+    "seen": 1793768732.2502532,
+    "ast_hash": "f90e468208a3ac9c5cf9eb9a312c8d58",
+    "semantic_hash": "f90e468208a3ac9c5cf9eb9a312c8d58"
+  },
+  "public/images/heroslide/hero1.jpg": {
+    "mtime": 1776816240.0,
+    "seen": 1793768732.250254,
+    "ast_hash": "fb1b04a37e63e2397063be4499f7a67e",
+    "semantic_hash": "fb1b04a37e63e2397063be4499f7a67e"
+  },
+  "public/images/heroslide/hero2.png": {
+    "mtime": 1776816240.0,
+    "seen": 1793768732.2502546,
+    "ast_hash": "477f630db9520f285de9060b2f39a6f3",
+    "semantic_hash": "477f630db9520f285de9060b2f39a6f3"
+  },
+  "public/images/heroslide/hero3.png": {
+    "mtime": 1776816240.0,
+    "seen": 1793768732.250255,
+    "ast_hash": "a250edb4dbda663b031e13c22f81a49a",
+    "semantic_hash": "a250edb4dbda663b031e13c22f81a49a"
+  },
+  "public/images/heroslide/hero4.png": {
+    "mtime": 1776916680.0,
+    "seen": 1793768732.2502556,
+    "ast_hash": "7f13c7c7796e5fe1b7d1260bb51b6f37",
+    "semantic_hash": "7f13c7c7796e5fe1b7d1260bb51b6f37"
+  },
+  "public/images/heroslide/hero5.png": {
+    "mtime": 1776916680.0,
+    "seen": 1793768732.2502563,
+    "ast_hash": "e740588666532a21d66701420df1277b",
+    "semantic_hash": "e740588666532a21d66701420df1277b"
+  },
+  "public/images/heroslide/hero6.png": {
+    "mtime": 1776916680.0,
+    "seen": 1793768732.2502573,
+    "ast_hash": "d970cbda5bd6245c828d631c21a527c8",
+    "semantic_hash": "d970cbda5bd6245c828d631c21a527c8"
+  },
+  "public/images/heroslide/hero7.png": {
+    "mtime": 1777253614.0,
+    "seen": 1793768732.250258,
+    "ast_hash": "7039ee23a6d995e7897d1442bcb78ee0",
+    "semantic_hash": "7039ee23a6d995e7897d1442bcb78ee0"
+  },
+  "public/images/heroslide/hero8.png": {
+    "mtime": 1777253830.0,
+    "seen": 1793768732.2502584,
+    "ast_hash": "b4631f0a47f7f83b565fabf1bd11d757",
+    "semantic_hash": "b4631f0a47f7f83b565fabf1bd11d757"
+  },
+  "public/images/heroslide/hero9.png": {
+    "mtime": 1777526340.0,
+    "seen": 1793768732.2502592,
+    "ast_hash": "f6c18a1b85d987e4b35318c34787a1ff",
+    "semantic_hash": "f6c18a1b85d987e4b35318c34787a1ff"
+  },
+  "public/images/logo/Skywave Tech Logo.webp": {
+    "mtime": 1771970274.0,
+    "seen": 1793768732.2502599,
+    "ast_hash": "2e2a691eccd7eaafa91c3b1e213c3403",
+    "semantic_hash": "2e2a691eccd7eaafa91c3b1e213c3403"
+  },
+  "public/images/logo/customers/Infratel_email_logo.png": {
+    "mtime": 1771970268.0,
+    "seen": 1793768732.2502606,
+    "ast_hash": "148ecdaef47a963e22398fe915e35d84",
+    "semantic_hash": "148ecdaef47a963e22398fe915e35d84"
+  },
+  "public/images/logo/customers/Kwacha Loans Limited.png": {
+    "mtime": 1771970270.0,
+    "seen": 1793768732.2502613,
+    "ast_hash": "d55222909ab54ae9ad1aeb7bde1a5498",
+    "semantic_hash": "d55222909ab54ae9ad1aeb7bde1a5498"
+  },
+  "public/images/logo/customers/Pioneer.jpg": {
+    "mtime": 1771987440.0,
+    "seen": 1793768732.250262,
+    "ast_hash": "83ea1f6b87d60475c3d4c9d9c32ba644",
+    "semantic_hash": "83ea1f6b87d60475c3d4c9d9c32ba644"
+  },
+  "public/images/logo/customers/afriseed.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502625,
+    "ast_hash": "8a340e12bf74e35cd8b046c1e420b85f",
+    "semantic_hash": "8a340e12bf74e35cd8b046c1e420b85f"
+  },
+  "public/images/logo/customers/alpha direct.png": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502632,
+    "ast_hash": "da57296637b57241b9b8bb01abf57fc6",
+    "semantic_hash": "da57296637b57241b9b8bb01abf57fc6"
+  },
+  "public/images/logo/customers/amz.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502637,
+    "ast_hash": "4a095d25afa6afe6203916694015c436",
+    "semantic_hash": "4a095d25afa6afe6203916694015c436"
+  },
+  "public/images/logo/customers/aquantuo.jpg": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502646,
+    "ast_hash": "0d5bd548af9a615e53ee39a717cbb1fa",
+    "semantic_hash": "0d5bd548af9a615e53ee39a717cbb1fa"
+  },
+  "public/images/logo/customers/canterbury.png": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502654,
+    "ast_hash": "b470dc86d18a9a3ac6f5b796579c7f1f",
+    "semantic_hash": "b470dc86d18a9a3ac6f5b796579c7f1f"
+  },
+  "public/images/logo/customers/cfu.png": {
+    "mtime": 1776999300.0,
+    "seen": 1793768732.2502666,
+    "ast_hash": "b810bd52812b0d23be0d5c76ab5f2a8f",
+    "semantic_hash": "b810bd52812b0d23be0d5c76ab5f2a8f"
+  },
+  "public/images/logo/customers/cgc.png": {
+    "mtime": 1771970274.0,
+    "seen": 1793768732.2502675,
+    "ast_hash": "26685531043235d1722d2a4417ec3c38",
+    "semantic_hash": "26685531043235d1722d2a4417ec3c38"
+  },
+  "public/images/logo/customers/chaminuka.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.250268,
+    "ast_hash": "9a6e7986906a25288d5ad7767ccffeb8",
+    "semantic_hash": "9a6e7986906a25288d5ad7767ccffeb8"
+  },
+  "public/images/logo/customers/consolidated-gold-comapny-of-zambia.jpg": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502687,
+    "ast_hash": "32229243f64e8be8b139a4798713dc90",
+    "semantic_hash": "32229243f64e8be8b139a4798713dc90"
+  },
+  "public/images/logo/customers/continuum.png": {
+    "mtime": 1771970270.0,
+    "seen": 1793768732.2502694,
+    "ast_hash": "fa08982536aa77ea8843428a2c3b7e50",
+    "semantic_hash": "fa08982536aa77ea8843428a2c3b7e50"
+  },
+  "public/images/logo/customers/dlp.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502701,
+    "ast_hash": "2223a28f7dd1a2d482f4afa4643a80a5",
+    "semantic_hash": "2223a28f7dd1a2d482f4afa4643a80a5"
+  },
+  "public/images/logo/customers/ecobank.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.250271,
+    "ast_hash": "2e233664c44b54a4dee9b6b47f91ed23",
+    "semantic_hash": "2e233664c44b54a4dee9b6b47f91ed23"
+  },
+  "public/images/logo/customers/fremlex.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502716,
+    "ast_hash": "1bd8b200cc7fda7469bcabcf362f1b94",
+    "semantic_hash": "1bd8b200cc7fda7469bcabcf362f1b94"
+  },
+  "public/images/logo/customers/general.jpg": {
+    "mtime": 1771970270.0,
+    "seen": 1793768732.2502723,
+    "ast_hash": "73b457c05347799b1f90e4d59e5a93b7",
+    "semantic_hash": "73b457c05347799b1f90e4d59e5a93b7"
+  },
+  "public/images/logo/customers/ihm.png": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.250273,
+    "ast_hash": "2631d0a1696ad5f475fc1b345eb033bf",
+    "semantic_hash": "2631d0a1696ad5f475fc1b345eb033bf"
+  },
+  "public/images/logo/customers/jlr.png": {
+    "mtime": 1776999300.0,
+    "seen": 1793768732.2502737,
+    "ast_hash": "46899d501baf23412df94191cc996168",
+    "semantic_hash": "46899d501baf23412df94191cc996168"
+  },
+  "public/images/logo/customers/logo-ecobank.jpg": {
+    "mtime": 1771970270.0,
+    "seen": 1793768732.2502744,
+    "ast_hash": "2e233664c44b54a4dee9b6b47f91ed23",
+    "semantic_hash": "2e233664c44b54a4dee9b6b47f91ed23"
+  },
+  "public/images/logo/customers/logo-ecobank.png": {
+    "mtime": 1771970270.0,
+    "seen": 1793768732.2502751,
+    "ast_hash": "89b3d396e76e6083543acd396ace03bd",
+    "semantic_hash": "89b3d396e76e6083543acd396ace03bd"
+  },
+  "public/images/logo/customers/logo.svg": {
+    "mtime": 1771970270.0,
+    "seen": 1793768732.2502756,
+    "ast_hash": "86a3830d44e02fb27f8f5e6b6f2f0995",
+    "semantic_hash": "86a3830d44e02fb27f8f5e6b6f2f0995"
+  },
+  "public/images/logo/customers/lolc.jpg": {
+    "mtime": 1776999300.0,
+    "seen": 1793768732.2502763,
+    "ast_hash": "4b46597d1e6bbb57cd7f6421da55c15e",
+    "semantic_hash": "4b46597d1e6bbb57cd7f6421da55c15e"
+  },
+  "public/images/logo/customers/nico.webp": {
+    "mtime": 1776917580.0,
+    "seen": 1793768732.2502768,
+    "ast_hash": "5eed92b6bc010f249e5243c5d75e4392",
+    "semantic_hash": "5eed92b6bc010f249e5243c5d75e4392"
+  },
+  "public/images/logo/customers/proflight_zambia.jpeg": {
+    "mtime": 1771970268.0,
+    "seen": 1793768732.2502775,
+    "ast_hash": "e6d65eb64e961297ba33af3dbdc10fed",
+    "semantic_hash": "e6d65eb64e961297ba33af3dbdc10fed"
+  },
+  "public/images/logo/customers/salor_panda.jpeg": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502785,
+    "ast_hash": "661a1fae045654015d0829d9099cc277",
+    "semantic_hash": "661a1fae045654015d0829d9099cc277"
+  },
+  "public/images/logo/customers/sda.png": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502792,
+    "ast_hash": "cd77bbaf4558a24e487f195de0d9db88",
+    "semantic_hash": "cd77bbaf4558a24e487f195de0d9db88"
+  },
+  "public/images/logo/customers/shreeji.png": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502797,
+    "ast_hash": "7f14690f2109fa268fd9d78bbae0c315",
+    "semantic_hash": "7f14690f2109fa268fd9d78bbae0c315"
+  },
+  "public/images/logo/customers/simba.jpg": {
+    "mtime": 1771970270.0,
+    "seen": 1793768732.2502804,
+    "ast_hash": "a3cac7162d1092c695d763460b2f6b82",
+    "semantic_hash": "a3cac7162d1092c695d763460b2f6b82"
+  },
+  "public/images/logo/customers/status.jpg": {
+    "mtime": 1776999300.0,
+    "seen": 1793768732.2502813,
+    "ast_hash": "d4729c3e1a47b6949f3b377c6dca9dc3",
+    "semantic_hash": "d4729c3e1a47b6949f3b377c6dca9dc3"
+  },
+  "public/images/logo/customers/status.png": {
+    "mtime": 1777001340.0,
+    "seen": 1793768732.2502818,
+    "ast_hash": "cd7f50d02d86a11d08616ea9817929c4",
+    "semantic_hash": "cd7f50d02d86a11d08616ea9817929c4"
+  },
+  "public/images/logo/customers/tata.jpg": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502825,
+    "ast_hash": "21fecff122f906b0a1980db79999000a",
+    "semantic_hash": "21fecff122f906b0a1980db79999000a"
+  },
+  "public/images/logo/customers/tata.png": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.250283,
+    "ast_hash": "636c29ab3e6346d388736346903161bd",
+    "semantic_hash": "636c29ab3e6346d388736346903161bd"
+  },
+  "public/images/logo/customers/titan.png": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502837,
+    "ast_hash": "60f4b441be68dd9b706d66064d65338d",
+    "semantic_hash": "60f4b441be68dd9b706d66064d65338d"
+  },
+  "public/images/logo/customers/tiz.png": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502842,
+    "ast_hash": "e2f6040e63695d6379af54d9a3133d7c",
+    "semantic_hash": "e2f6040e63695d6379af54d9a3133d7c"
+  },
+  "public/images/logo/customers/uniflex.png": {
+    "mtime": 1771970274.0,
+    "seen": 1793768732.2502851,
+    "ast_hash": "0feef32d778da9b113159b043005117c",
+    "semantic_hash": "0feef32d778da9b113159b043005117c"
+  },
+  "public/images/logo/customers/vitalite.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502859,
+    "ast_hash": "43ac46b480a119c85f9bd034ec6e116e",
+    "semantic_hash": "43ac46b480a119c85f9bd034ec6e116e"
+  },
+  "public/images/logo/customers/wg.webp": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502863,
+    "ast_hash": "198f42b1cb3880f94a47a790464b0516",
+    "semantic_hash": "198f42b1cb3880f94a47a790464b0516"
+  },
+  "public/images/logo/customers/yango.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.250287,
+    "ast_hash": "12f993b93a01f032c7a6c23991301600",
+    "semantic_hash": "12f993b93a01f032c7a6c23991301600"
+  },
+  "public/images/logo/customers/zisc.svg": {
+    "mtime": 1771970274.0,
+    "seen": 1793768732.2502878,
+    "ast_hash": "86a3830d44e02fb27f8f5e6b6f2f0995",
+    "semantic_hash": "86a3830d44e02fb27f8f5e6b6f2f0995"
+  },
+  "public/images/logo/customers2/Afriseed.png": {
+    "mtime": 1771970270.0,
+    "seen": 1793768732.2502887,
+    "ast_hash": "f8586610c4927aab93acda31b3a20410",
+    "semantic_hash": "f8586610c4927aab93acda31b3a20410"
+  },
+  "public/images/logo/customers2/Kwacha Loans Limited.png": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502894,
+    "ast_hash": "d55222909ab54ae9ad1aeb7bde1a5498",
+    "semantic_hash": "d55222909ab54ae9ad1aeb7bde1a5498"
+  },
+  "public/images/logo/customers2/Pioneer.png": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.25029,
+    "ast_hash": "41cba7d25bc4589138944a9a802c0905",
+    "semantic_hash": "41cba7d25bc4589138944a9a802c0905"
+  },
+  "public/images/logo/customers2/TIZs.png": {
+    "mtime": 1771987440.0,
+    "seen": 1793768732.2502906,
+    "ast_hash": "dc3dd9d1eb66e0c8c3f7fb3438088368",
+    "semantic_hash": "dc3dd9d1eb66e0c8c3f7fb3438088368"
+  },
+  "public/images/logo/customers2/alliance-motors.jpg": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502913,
+    "ast_hash": "2990dbbea6af4c35f7197f3f1db53a04",
+    "semantic_hash": "2990dbbea6af4c35f7197f3f1db53a04"
+  },
+  "public/images/logo/customers2/aquantuo.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502923,
+    "ast_hash": "9c1a8d0b42c2424a4980d537c66e5ad6",
+    "semantic_hash": "9c1a8d0b42c2424a4980d537c66e5ad6"
+  },
+  "public/images/logo/customers2/cfu.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502928,
+    "ast_hash": "e0c38eb962a470d3b2dacab0642840f6",
+    "semantic_hash": "e0c38eb962a470d3b2dacab0642840f6"
+  },
+  "public/images/logo/customers2/infratel.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502935,
+    "ast_hash": "c32ccbdf461bc79ec7e7c6ccc8e704b7",
+    "semantic_hash": "c32ccbdf461bc79ec7e7c6ccc8e704b7"
+  },
+  "public/images/logo/customers2/jlr.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502942,
+    "ast_hash": "2990dbbea6af4c35f7197f3f1db53a04",
+    "semantic_hash": "2990dbbea6af4c35f7197f3f1db53a04"
+  },
+  "public/images/logo/customers2/pioneer.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.250295,
+    "ast_hash": "83ea1f6b87d60475c3d4c9d9c32ba644",
+    "semantic_hash": "83ea1f6b87d60475c3d4c9d9c32ba644"
+  },
+  "public/images/logo/customers2/simba.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502956,
+    "ast_hash": "38d01df5d2de55f638317d268c747b97",
+    "semantic_hash": "38d01df5d2de55f638317d268c747b97"
+  },
+  "public/images/logo/customers2/solarpanda.png": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.250297,
+    "ast_hash": "792388e2736ad55424e5e433f942dd72",
+    "semantic_hash": "792388e2736ad55424e5e433f942dd72"
+  },
+  "public/images/logo/customers2/tata.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2502978,
+    "ast_hash": "9b1da982f438c4e0ef7e12eec7d4506c",
+    "semantic_hash": "9b1da982f438c4e0ef7e12eec7d4506c"
+  },
+  "public/images/logo/customers2/transparaency.jpg": {
+    "mtime": 1771970272.0,
+    "seen": 1793768732.2502987,
+    "ast_hash": "09299eee870fe5233ed89a456f4f8990",
+    "semantic_hash": "09299eee870fe5233ed89a456f4f8990"
+  },
+  "public/images/logo/customers2/uniflex.jpg": {
+    "mtime": 1771970270.0,
+    "seen": 1793768732.2502992,
+    "ast_hash": "3cf0ef5b9149f38401cecc7be9a5237c",
+    "semantic_hash": "3cf0ef5b9149f38401cecc7be9a5237c"
+  },
+  "public/images/logo/customers2/wonderfulgroup.jpg": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2503,
+    "ast_hash": "29071adc2b6dadb5bec726deb18ef215",
+    "semantic_hash": "29071adc2b6dadb5bec726deb18ef215"
+  },
+  "public/images/logo/customers2/zsic.png": {
+    "mtime": 1776917520.0,
+    "seen": 1793768732.2503006,
+    "ast_hash": "24aec022601626b669091f5b4929aaaf",
+    "semantic_hash": "24aec022601626b669091f5b4929aaaf"
+  },
+  "public/images/logo/logo2.jpg": {
+    "mtime": 1771970274.0,
+    "seen": 1793768732.2503014,
+    "ast_hash": "3c400a79a5fc6cadd9ef95c3f7fdf51a",
+    "semantic_hash": "3c400a79a5fc6cadd9ef95c3f7fdf51a"
+  },
+  "public/images/logo/logo3.png": {
+    "mtime": 1771987440.0,
+    "seen": 1793768732.2503018,
+    "ast_hash": "bdc9997d34534847f5df190c860bf355",
+    "semantic_hash": "bdc9997d34534847f5df190c860bf355"
+  },
+  "public/images/logo/skywave.jpeg": {
+    "mtime": 1771970274.0,
+    "seen": 1793768732.2503028,
+    "ast_hash": "7ba870edf54ee03decf38fff6aa9a695",
+    "semantic_hash": "7ba870edf54ee03decf38fff6aa9a695"
+  }
+}

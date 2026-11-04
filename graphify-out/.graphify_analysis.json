@@ -1,0 +1,498 @@
+{
+  "communities": {
+    "0": [
+      "public_js_index",
+      "public_js_index_animatecounters",
+      "public_js_index_appearonscroll",
+      "public_js_index_appearoptions",
+      "public_js_index_autoslide",
+      "public_js_index_container",
+      "public_js_index_counters",
+      "public_js_index_dots",
+      "public_js_index_faders",
+      "public_js_index_heroslider",
+      "public_js_index_menubtn",
+      "public_js_index_navbar",
+      "public_js_index_navmenu",
+      "public_js_index_openwebrtc",
+      "public_js_index_renderflash",
+      "public_js_index_resetautoslide",
+      "public_js_index_showslide",
+      "public_js_index_slides"
+    ],
+    "1": [
+      "partner_dell",
+      "partner_fanvil",
+      "partner_grandstream",
+      "partner_hp",
+      "partner_sangoma",
+      "partner_yealink",
+      "playwright_partners_ui",
+      "public_images_brands_dell_svg",
+      "public_images_brands_hp_svg"
+    ],
+    "2": [
+      "public_js_about",
+      "public_js_about_cards",
+      "public_js_about_form",
+      "public_js_about_formmessage",
+      "public_js_about_menubtn",
+      "public_js_about_navbar",
+      "public_js_about_navmenu"
+    ],
+    "3": [
+      "public_js_products",
+      "public_js_products_cards",
+      "public_js_products_form",
+      "public_js_products_formmessage",
+      "public_js_products_menubtn",
+      "public_js_products_navbar",
+      "public_js_products_navmenu"
+    ],
+    "4": [
+      "public_js_services",
+      "public_js_services_cards",
+      "public_js_services_form",
+      "public_js_services_formmessage",
+      "public_js_services_menubtn",
+      "public_js_services_navbar",
+      "public_js_services_navmenu"
+    ],
+    "5": [
+      "public_js_solutions",
+      "public_js_solutions_cards",
+      "public_js_solutions_form",
+      "public_js_solutions_formmessage",
+      "public_js_solutions_menubtn",
+      "public_js_solutions_navbar",
+      "public_js_solutions_navmenu"
+    ],
+    "6": [
+      "partner_yeastar",
+      "playwright_page_dump",
+      "playwright_screenshot_main",
+      "public_images_brands_skywave_logo",
+      "public_images_brands_yeastar_logo",
+      "skywave_platform"
+    ],
+    "7": [
+      "public_images_brands_yeastar",
+      "public_images_heroslide_hero2",
+      "public_images_heroslide_hero4",
+      "public_images_heroslide_hero5",
+      "public_images_heroslide_hero6",
+      "public_images_heroslide_hero9"
+    ],
+    "8": [
+      "app_processes_booking_process",
+      "app_processes_booking_process_clean_input"
+    ],
+    "9": [
+      "public_images_logo_customers2_tizs",
+      "public_images_logo_customers_tiz"
+    ],
+    "10": [
+      "public_images_logo_customers_cgc_png",
+      "public_images_logo_customers_consolidated_gold_comapny_of_zambia_jpg"
+    ],
+    "11": [
+      "public_images_logo_customers_ecobank_jpg",
+      "public_images_logo_customers_logo_ecobank_png"
+    ],
+    "12": [
+      "public_images_logo_customers_general_jpg",
+      "public_images_logo_customers_logo_svg"
+    ],
+    "13": [
+      "public_images_logo_customers_status_jpg",
+      "public_images_logo_customers_status_png"
+    ],
+    "14": [
+      "public_images_logo_customers_tata_jpg",
+      "public_images_logo_customers_tata_png"
+    ],
+    "15": [
+      "robots",
+      "sitemap"
+    ],
+    "16": [
+      "about"
+    ],
+    "17": [
+      "index"
+    ],
+    "18": [
+      "products"
+    ],
+    "19": [
+      "public_documents_company_profile"
+    ],
+    "20": [
+      "public_images_brands_yeast"
+    ],
+    "21": [
+      "public_images_brands_yeastar2"
+    ],
+    "22": [
+      "public_images_heroslide_hero1"
+    ],
+    "23": [
+      "public_images_heroslide_hero3"
+    ],
+    "24": [
+      "public_images_heroslide_hero7"
+    ],
+    "25": [
+      "public_images_heroslide_hero8"
+    ],
+    "26": [
+      "public_images_heroslide_whatsapp_image_2026_04_20_at_3_39_57_pm"
+    ],
+    "27": [
+      "public_images_logo_customers2_afriseed"
+    ],
+    "28": [
+      "public_images_logo_customers2_alliance_motors"
+    ],
+    "29": [
+      "public_images_logo_customers2_aquantuo_jpg"
+    ],
+    "30": [
+      "public_images_logo_customers2_infratel_jpg"
+    ],
+    "31": [
+      "public_images_logo_customers2_jlr_jpg"
+    ],
+    "32": [
+      "public_images_logo_customers2_kwacha_loans"
+    ],
+    "33": [
+      "public_images_logo_customers2_pioneer"
+    ],
+    "34": [
+      "public_images_logo_customers2_pioneer_jpg"
+    ],
+    "35": [
+      "public_images_logo_customers2_simba_jpg"
+    ],
+    "36": [
+      "public_images_logo_customers2_solarpanda_png"
+    ],
+    "37": [
+      "public_images_logo_customers2_tata_jpg"
+    ],
+    "38": [
+      "public_images_logo_customers2_transparaency_jpg"
+    ],
+    "39": [
+      "public_images_logo_customers2_uniflex_jpg"
+    ],
+    "40": [
+      "public_images_logo_customers2_wonderfulgroup_jpg"
+    ],
+    "41": [
+      "public_images_logo_customers2_zsic_png"
+    ],
+    "42": [
+      "public_images_logo_customers_afriseed_jpg"
+    ],
+    "43": [
+      "public_images_logo_customers_alpha_direct_png"
+    ],
+    "44": [
+      "public_images_logo_customers_amz_jpg"
+    ],
+    "45": [
+      "public_images_logo_customers_aquantuo_jpg"
+    ],
+    "46": [
+      "public_images_logo_customers_canterbury_png"
+    ],
+    "47": [
+      "public_images_logo_customers_cfu_png"
+    ],
+    "48": [
+      "public_images_logo_customers_chaminuka_jpg"
+    ],
+    "49": [
+      "public_images_logo_customers_continuum_png"
+    ],
+    "50": [
+      "public_images_logo_customers_dlp_jpg"
+    ],
+    "51": [
+      "public_images_logo_customers_fremlex_jpg"
+    ],
+    "52": [
+      "public_images_logo_customers_ihm_png"
+    ],
+    "53": [
+      "public_images_logo_customers_infratel_email_logo"
+    ],
+    "54": [
+      "public_images_logo_customers_jlr_png"
+    ],
+    "55": [
+      "public_images_logo_customers_kwacha_loans_limited"
+    ],
+    "56": [
+      "public_images_logo_customers_logo_ecobank_jpg"
+    ],
+    "57": [
+      "public_images_logo_customers_lolc_jpg"
+    ],
+    "58": [
+      "public_images_logo_customers_nico_webp"
+    ],
+    "59": [
+      "public_images_logo_customers_pioneer"
+    ],
+    "60": [
+      "public_images_logo_customers_proflight_zambia"
+    ],
+    "61": [
+      "public_images_logo_customers_salor_panda"
+    ],
+    "62": [
+      "public_images_logo_customers_sda"
+    ],
+    "63": [
+      "public_images_logo_customers_shreeji"
+    ],
+    "64": [
+      "public_images_logo_customers_simba"
+    ],
+    "65": [
+      "public_images_logo_customers_titan"
+    ],
+    "66": [
+      "public_images_logo_customers_uniflex"
+    ],
+    "67": [
+      "public_images_logo_customers_vitalite"
+    ],
+    "68": [
+      "public_images_logo_customers_wg"
+    ],
+    "69": [
+      "public_images_logo_customers_yango"
+    ],
+    "70": [
+      "public_images_logo_customers_zisc"
+    ],
+    "71": [
+      "public_images_logo_logo2"
+    ],
+    "72": [
+      "public_images_logo_logo3"
+    ],
+    "73": [
+      "public_images_logo_skywave"
+    ],
+    "74": [
+      "public_images_logo_skywave_tech_logo"
+    ],
+    "75": [
+      "readme"
+    ],
+    "76": [
+      "services"
+    ],
+    "77": [
+      "solutions"
+    ]
+  },
+  "cohesion": {
+    "0": 0.12418300653594772,
+    "1": 0.2222222222222222,
+    "2": 0.2857142857142857,
+    "3": 0.2857142857142857,
+    "4": 0.2857142857142857,
+    "5": 0.2857142857142857,
+    "6": 0.3333333333333333,
+    "7": 0.3333333333333333,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0
+  },
+  "gods": [
+    {
+      "id": "playwright_partners_ui",
+      "label": "Partners UI Section",
+      "degree": 7
+    },
+    {
+      "id": "public_images_brands_yeastar",
+      "label": "Yeastar Logo",
+      "degree": 5
+    },
+    {
+      "id": "public_js_index_showslide",
+      "label": "showSlide()",
+      "degree": 3
+    },
+    {
+      "id": "public_js_index_resetautoslide",
+      "label": "resetAutoSlide()",
+      "degree": 2
+    },
+    {
+      "id": "public_js_index_autoslide",
+      "label": "autoSlide",
+      "degree": 2
+    },
+    {
+      "id": "playwright_page_dump",
+      "label": "Playwright Page Metadata",
+      "degree": 2
+    },
+    {
+      "id": "public_js_about_menubtn",
+      "label": "menuBtn",
+      "degree": 1
+    },
+    {
+      "id": "public_js_about_navmenu",
+      "label": "navMenu",
+      "degree": 1
+    },
+    {
+      "id": "public_js_about_navbar",
+      "label": "navbar",
+      "degree": 1
+    },
+    {
+      "id": "public_js_about_cards",
+      "label": "cards",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Skywave Homepage Screenshot",
+      "target": "Playwright Page Metadata",
+      "source_files": [
+        ".playwright-mcp/page-2026-10-08T13-18-45-735Z.png",
+        ".playwright-mcp/page-2026-10-08T13-17-46-562Z.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "semantically_similar_to",
+      "why": "crosses file types (doc \u2194 image); semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Yeastar Communication Devices and Software UI",
+      "target": "Yeastar Logo",
+      "source_files": [
+        "public/images/heroslide/hero2.png",
+        "public/images/brands/yeastar.jpeg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `Yeastar Communication Devices and Software UI` unexpectedly reaches hub `Yeastar Logo`"
+    },
+    {
+      "source": "Certified Yeastar Partner Handshake Diagram",
+      "target": "Yeastar Logo",
+      "source_files": [
+        "public/images/heroslide/hero4.png",
+        "public/images/brands/yeastar.jpeg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `Certified Yeastar Partner Handshake Diagram` unexpectedly reaches hub `Yeastar Logo`"
+    },
+    {
+      "source": "Certified Yeastar Partner Handshake Diagram",
+      "target": "Yeastar Logo",
+      "source_files": [
+        "public/images/heroslide/hero5.png",
+        "public/images/brands/yeastar.jpeg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `Certified Yeastar Partner Handshake Diagram` unexpectedly reaches hub `Yeastar Logo`"
+    },
+    {
+      "source": "Yeastar Office Building and Logo",
+      "target": "Yeastar Logo",
+      "source_files": [
+        "public/images/heroslide/hero6.png",
+        "public/images/brands/yeastar.jpeg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `Yeastar Office Building and Logo` unexpectedly reaches hub `Yeastar Logo`"
+    }
+  ],
+  "tokens": {
+    "input": 141489,
+    "output": 8547
+  }
+}
