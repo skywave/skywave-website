@@ -14,31 +14,43 @@ if ($conn->connect_error) {
     die("Database connection failed: " . $conn->connect_error);
 }
 
-// Get POST data
-$name = $_POST['name'] ?? '';
-$email = $_POST['email'] ?? '';
-$phone = $_POST['phone'] ?? '';
-$message = $_POST['message'] ?? '';
+// Get POST data and sanitize
+$name = trim($_POST['name'] ?? '');
+$email = trim($_POST['email'] ?? '');
+$phone = trim($_POST['phone'] ?? '');
+$message = trim($_POST['message'] ?? '');
 
-if($name && $email) {
+// Helper to remove newlines for header injection prevention
+function clean_input($data) {
+    return str_replace(["\r", "\n"], '', $data);
+}
+
+if ($name && filter_var($email, FILTER_VALIDATE_EMAIL)) {
     // Insert into DB
     $stmt = $conn->prepare("INSERT INTO bookings (name, email, phone, message) VALUES (?, ?, ?, ?)");
     $stmt->bind_param("ssss", $name, $email, $phone, $message);
     $stmt->execute();
     $stmt->close();
 
+    // Clean inputs for email usage
+    $cleanName = clean_input($name);
+    
     // Email to admin
-    $subjectAdmin = "New Booking from $name";
-    $bodyAdmin = "Name: $name\nEmail: $email\nPhone: $phone\nMessage:\n$message";
+    $subjectAdmin = "New Booking from " . $cleanName;
+    $bodyAdmin = "Name: $cleanName\nEmail: $email\nPhone: " . clean_input($phone) . "\nMessage:\n$message";
     mail($adminEmail, $subjectAdmin, $bodyAdmin);
 
     // Confirmation email to user
     $subjectUser = "Booking Received - Skywave";
-    $bodyUser = "Hello $name,\n\nThank you for your booking. Our team will contact you soon.\n\nRegards,\nSkywave Team";
+    $bodyUser = "Hello $cleanName,\n\nThank you for your booking. Our team will contact you soon.\n\nRegards,\nSkywave Team";
     mail($email, $subjectUser, $bodyUser);
 
-    // Redirect back with success
-    echo "<script>alert('Thank you, your booking has been received!');window.location.href='".$_SERVER['HTTP_REFERER']."';</script>";
+    // Return success response
+    echo json_encode(['status' => 'success', 'message' => 'Thank you, your booking has been received!']);
+} else {
+    // Return error response
+    http_response_code(400);
+    echo json_encode(['status' => 'error', 'message' => 'Invalid input.']);
 }
 $conn->close();
 ?>
