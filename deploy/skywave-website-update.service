@@ -1,0 +1,9 @@
+[Unit]
+Description=Update the Skywave website from GitHub
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/skywave-website/deploy/update.sh
+TimeoutStartSec=900

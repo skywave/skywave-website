@@ -1,0 +1,3 @@
+# Server-only settings (database login, email)
+app/config.php
+deploy/.env

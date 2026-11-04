@@ -1,12 +1,27 @@
 <?php
-// Database config and change when live database is created
-$host = "localhost";
-$db = "skywave_db";
-$user = "root"; // change if needed
-$pass = "";     // change if needed
+// Settings come from the server, never from git:
+//   1. app/config.php if it exists (copy app/config.example.php; it is git-ignored), else
+//   2. environment variables (the Docker setup in deploy/ sets these), else
+//   3. local development defaults (MySQL root without a password on this PC).
+$cfg = is_file(__DIR__ . '/../config.php') ? (include __DIR__ . '/../config.php') : [];
+if (!is_array($cfg)) {
+    $cfg = [];
+}
+$setting = function (string $key, string $env, string $default) use ($cfg): string {
+    if (isset($cfg[$key]) && $cfg[$key] !== '') {
+        return (string) $cfg[$key];
+    }
+    $v = getenv($env);
+    return ($v !== false && $v !== '') ? $v : $default;
+};
 
-// Admin email
-$adminEmail = "support@skywave.co.zm";
+$host = $setting('db_host', 'DB_HOST', 'localhost');
+$db   = $setting('db_name', 'DB_NAME', 'skywave_db');
+$user = $setting('db_user', 'DB_USER', 'root');
+$pass = $setting('db_pass', 'DB_PASS', '');
+
+// Where booking notifications go
+$adminEmail = $setting('admin_email', 'ADMIN_EMAIL', 'support@skywavetech.co.zm');
 
 // Connect to database
 $conn = new mysqli($host, $user, $pass, $db);
