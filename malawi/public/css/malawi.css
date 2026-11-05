@@ -107,11 +107,6 @@ header {
     transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
 }
 
-header.transparent {
-    background: linear-gradient(to bottom, rgba(8, 20, 35, 0.62), rgba(8, 20, 35, 0));
-    color: #fff;
-}
-
 header.scrolled {
     background: #fff;
     color: var(--deep);
@@ -128,15 +123,6 @@ header.scrolled {
 .logo img {
     width: 100%;
     height: auto;
-    transition: filter 0.3s ease;
-}
-
-header.transparent .logo img {
-    filter: brightness(0) invert(1);
-}
-
-header.scrolled .logo img {
-    filter: none;
 }
 
 header nav {
@@ -165,15 +151,6 @@ header nav a:hover {
     font-weight: 600;
 }
 
-header.transparent .zambia-btn {
-    background: rgba(255, 255, 255, 0.16);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-}
-
-header.scrolled .zambia-btn {
-    background: var(--dark-blue);
-}
-
 .hamburger {
     display: none;
     background: none;
@@ -187,10 +164,10 @@ header.scrolled .zambia-btn {
 
 .hero {
     position: relative;
-    min-height: 92vh;
+    min-height: 82vh;
     display: flex;
     align-items: center;
-    padding: 150px 5% 90px;
+    padding: 140px 5% 80px;
     color: #fff;
     background-image: url("../images/heroslide/hero1.jpg");
     background-size: cover;
@@ -273,6 +250,7 @@ header.scrolled .zambia-btn {
     color: #fff;
     font-weight: 600;
     text-decoration: none;
+    white-space: nowrap;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -316,56 +294,18 @@ header.scrolled .zambia-btn {
     background: #fff;
 }
 
-.intro-grid {
-    max-width: var(--max);
+.intro-copy {
+    max-width: 820px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1.25fr 0.75fr;
-    gap: 55px;
-    align-items: center;
 }
 
-.intro-grid p {
+.intro-copy p {
     color: var(--muted);
     margin-bottom: 18px;
 }
 
-.intro-grid .btn {
+.intro-copy .btn {
     margin-top: 8px;
-}
-
-.intro-card {
-    background: var(--light-bg);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 34px;
-}
-
-.intro-card h3 {
-    color: var(--dark-blue);
-    font-size: 1.1rem;
-    margin-bottom: 18px;
-}
-
-.intro-card ul {
-    list-style: none;
-}
-
-.intro-card li {
-    position: relative;
-    padding-left: 24px;
-    margin-bottom: 12px;
-    color: var(--muted);
-    font-size: 0.95rem;
-}
-
-.intro-card li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: var(--blue);
-    font-weight: 700;
 }
 
 /* ---------- Solutions cards ---------- */
@@ -396,15 +336,6 @@ header.scrolled .zambia-btn {
     box-shadow: 0 18px 42px rgba(14, 22, 34, 0.12);
 }
 
-.card-number {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    color: var(--blue);
-    margin-bottom: 20px;
-}
-
 .card h3 {
     color: var(--dark-blue);
     font-size: 1.3rem;
@@ -428,96 +359,56 @@ header.scrolled .zambia-btn {
     text-decoration: underline;
 }
 
-/* ---------- Why us ---------- */
-
-.why {
-    background: #fff;
-}
-
-.feature-grid {
-    max-width: var(--max);
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 22px;
-}
-
-.feature {
-    padding: 28px;
-    border-radius: var(--radius);
-    background: var(--light-bg);
-    border: 1px solid var(--line);
-}
-
-.feature h3 {
-    color: var(--dark-blue);
-    font-size: 1.05rem;
-    margin-bottom: 8px;
-}
-
-.feature p {
-    color: var(--muted);
-    font-size: 0.92rem;
-}
-
 /* ---------- Fish Africa ---------- */
 
 .fish {
-    background: #eaf2fb;
+    background: #fff;
 }
 
-.fish-grid {
+.fish-card {
     max-width: var(--max);
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.05fr 0.95fr;
-    gap: 55px;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 48px;
     align-items: center;
+    padding: 40px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--light-bg);
 }
 
 .fish-copy h2 {
     color: var(--dark-blue);
-    font-size: clamp(1.9rem, 3.2vw, 2.7rem);
-    line-height: 1.18;
-    letter-spacing: -0.02em;
-    margin-bottom: 18px;
+    font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 12px;
 }
 
 .fish-copy > p {
     color: var(--muted);
-    margin-bottom: 28px;
+    font-size: 0.95rem;
+    margin-bottom: 18px;
 }
 
-.fish-points {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 22px;
-    margin-bottom: 30px;
-}
-
-.fish-points h3 {
-    color: var(--dark-blue);
-    font-size: 1rem;
-    margin-bottom: 6px;
-}
-
-.fish-points p {
-    color: var(--muted);
+.text-link {
+    color: var(--blue);
+    font-weight: 600;
     font-size: 0.9rem;
+    text-decoration: none;
 }
 
-.fish-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+.text-link:hover {
+    text-decoration: underline;
 }
 
 .fish-media img {
     width: 100%;
-    height: 420px;
-    object-fit: cover;
-    border-radius: 22px;
-    box-shadow: 0 20px 50px rgba(22, 59, 108, 0.22);
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 14px 32px rgba(22, 59, 108, 0.14);
 }
 
 /* ---------- Contact ---------- */
@@ -668,26 +559,14 @@ footer {
         gap: 18px;
     }
 
-    .intro-grid,
-    .fish-grid {
+    .fish-card {
         grid-template-columns: 1fr;
-        gap: 36px;
+        gap: 28px;
+        padding: 28px;
     }
 
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .feature-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .fish-media {
-        order: -1;
-    }
-
-    .fish-media img {
-        height: 330px;
     }
 }
 
@@ -734,8 +613,8 @@ footer {
 
 @media (max-width: 700px) {
     .hero {
-        min-height: 88vh;
-        padding-top: 130px;
+        min-height: 78vh;
+        padding-top: 120px;
     }
 
     .hero h1 {
@@ -746,14 +625,8 @@ footer {
         padding: 68px 5%;
     }
 
-    .card-grid,
-    .feature-grid,
-    .fish-points {
+    .card-grid {
         grid-template-columns: 1fr;
-    }
-
-    .intro-card {
-        padding: 28px;
     }
 
     .footer-grid {
