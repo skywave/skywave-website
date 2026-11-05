@@ -19,8 +19,8 @@ $fishAfrica    = $mainSite . '/fishafrica';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Skywave Technologies Malawi | Business Communication Solutions</title>
-    <meta name="description" content="Skywave Technologies provides secure, scalable business communication solutions in Malawi — VoIP, contact centres, gateways, IP telephony and customer messaging.">
+    <title>Skywave Technologies | Business Communication Solutions — Malawi</title>
+    <meta name="description" content="Skywave Technologies provides secure, scalable business communication solutions — VoIP, contact centres, gateways, IP telephony and customer messaging.">
 
     <link rel="canonical" href="https://mw.skywavetech.co.zm/">
     <link rel="alternate" hreflang="en-ZM" href="https://skywavetech.co.zm/">
@@ -28,8 +28,8 @@ $fishAfrica    = $mainSite . '/fishafrica';
     <link rel="alternate" hreflang="x-default" href="https://skywavetech.co.zm/">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Skywave Technologies Malawi">
-    <meta property="og:description" content="Secure, scalable business communication solutions for organisations in Malawi.">
+    <meta property="og:title" content="Skywave Technologies | Business Communication Solutions">
+    <meta property="og:description" content="Secure, scalable business communication solutions — VoIP, contact centres, gateways, IP telephony and customer messaging.">
     <meta property="og:url" content="https://mw.skywavetech.co.zm/">
     <meta property="og:image" content="https://mw.skywavetech.co.zm/public/images/logo/skywave-tech-logo.webp">
 
@@ -44,7 +44,7 @@ $fishAfrica    = $mainSite . '/fishafrica';
     {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Skywave Technologies Malawi",
+        "name": "Skywave Technologies",
         "url": "https://mw.skywavetech.co.zm/",
         "logo": "https://mw.skywavetech.co.zm/public/images/logo/skywave-tech-logo.webp",
         "parentOrganization": {
@@ -69,6 +69,9 @@ $fishAfrica    = $mainSite . '/fishafrica';
 
         <nav id="navMenu">
             <a href="#about">About</a>
+            <a href="#offerings">Solutions</a>
+            <a href="#why">Why Choose Us</a>
+            <a href="#partners">Partners</a>
             <a href="#fish-africa">Fish Africa</a>
             <a href="#contact">Contact</a>
             <a href="<?= htmlspecialchars($mainSite) ?>" class="zambia-btn">Skywave Zambia</a>
@@ -86,11 +89,11 @@ $fishAfrica    = $mainSite . '/fishafrica';
         <section class="hero" id="home">
             <div class="hero-overlay" aria-hidden="true"></div>
             <div class="hero-content">
-                <span class="eyebrow">Skywave Technologies · Malawi</span>
-                <h1>Reliable business communication for Malawi.</h1>
+                <span class="eyebrow">Skywave Technologies</span>
+                <h1>Reliable business communication.</h1>
                 <p>
                     Skywave Technologies designs, deploys and supports secure communication
-                    systems for organisations in Malawi — from VoIP and contact centres to
+                    systems for organisations — from VoIP and contact centres to
                     complete business telephony.
                 </p>
                 <div class="hero-actions">
@@ -113,7 +116,7 @@ $fishAfrica    = $mainSite . '/fishafrica';
             <div class="intro-copy">
                 <p>
                     Skywave Technologies provides secure, scalable communication solutions to
-                    organisations across Zambia, Malawi and the wider region. Our team manages
+                    organisations across the region. Our team manages
                     the full lifecycle — from design and deployment to ongoing support.
                 </p>
                 <p>
@@ -125,32 +128,131 @@ $fishAfrica    = $mainSite . '/fishafrica';
             </div>
         </section>
 
-        <!-- SOLUTIONS -->
-        <section class="section solutions" id="services">
+        <!-- WHAT WE DO BEST / OFFERINGS -->
+        <section class="section offerings" id="offerings">
             <div class="section-head center">
-                <span class="section-label">What we do</span>
-                <h2>Solutions and services</h2>
+                <span class="section-label">What We Do Best</span>
+                <h2>Products, Services & Solutions</h2>
                 <p class="section-sub">Core communication capabilities delivered by the Skywave team.</p>
             </div>
 
             <div class="card-grid">
                 <article class="card">
-                    <h3>Business telephony</h3>
-                    <p>IP PBX, VoIP, gateways and IP phones from established technology partners.</p>
+                    <h3>Products</h3>
+                    <p>IP PBX, VoIP, Gateways and IP phones from established technology partners.</p>
                     <a href="<?= htmlspecialchars($mainProducts) ?>">View products →</a>
                 </article>
 
                 <article class="card">
-                    <h3>Contact centres</h3>
-                    <p>Call routing, reporting and unified communication systems for customer-facing teams.</p>
-                    <a href="<?= htmlspecialchars($mainSolutions) ?>">View solutions →</a>
+                    <h3>Services</h3>
+                    <p>Installation, integration and managed VoIP services tailored to your business.</p>
+                    <a href="<?= htmlspecialchars($mainServices) ?>">Explore services →</a>
                 </article>
 
                 <article class="card">
-                    <h3>Deployment and support</h3>
-                    <p>Installation, integration and managed services for long-term operational reliability.</p>
-                    <a href="<?= htmlspecialchars($mainServices) ?>">View services →</a>
+                    <h3>Solutions</h3>
+                    <p>Contact centre, call routing and unified communication systems for customer-focused businesses.</p>
+                    <a href="<?= htmlspecialchars($mainSolutions) ?>">See solutions →</a>
                 </article>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE SKYWAVE -->
+        <section class="section why" id="why">
+            <div class="section-head center">
+                <span class="section-label">Why Choose Skywave</span>
+                <h2>Your trusted communication partner.</h2>
+                <p class="section-sub">We deliver more than technology — we deliver outcomes.</p>
+            </div>
+
+            <div class="features">
+                <div class="card">
+                    <h3>Expertise</h3>
+                    <p>Our team of skilled professionals is experienced in diverse business communication solutions across the region.</p>
+                </div>
+                <div class="card">
+                    <h3>Customization</h3>
+                    <p>We tailor our solutions to align with your business goals and challenges — no one-size-fits-all.</p>
+                </div>
+                <div class="card">
+                    <h3>Reliable Support</h3>
+                    <p>Ongoing local and remote support to ensure systems operate smoothly, day in, day out.</p>
+                </div>
+                <div class="card">
+                    <h3>Proven Track Record</h3>
+                    <p>Trusted by businesses across the region and beyond for mission-critical communication.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTNERS & BRANDS -->
+        <section class="section partners" id="partners">
+            <div class="section-head center">
+                <span class="section-label">Partners & Brands</span>
+                <h2>Technology partners we trust</h2>
+                <p class="section-sub">We work with industry-leading brands to deliver best-in-class solutions.</p>
+            </div>
+            <div class="logos-slider">
+                <div class="logos-row">
+                    <div class="card">
+                        <img src="../public/images/brands/Fanvil.jpeg" alt="Fanvil">
+                        <p>Authorized Solution Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/yealink.png" alt="Yealink">
+                        <p>Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/grand.png" alt="Grandstream">
+                        <p>Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/sang.png" alt="Sangoma">
+                        <p>Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/yeast.png" alt="Yeastar Partner">
+                        <p>Authorized Distributor</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/dell-logo.jpg" alt="Dell">
+                        <p>Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/hp-logo.png" alt="HP">
+                        <p>Partner</p>
+                    </div>
+
+                    <!-- duplicate set for smooth infinite loop -->
+                    <div class="card">
+                        <img src="../public/images/brands/Fanvil.jpeg" alt="Fanvil">
+                        <p>Authorized Solution Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/yealink.png" alt="Yealink">
+                        <p>Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/grand.png" alt="Grandstream">
+                        <p>Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/sang.png" alt="Sangoma">
+                        <p>Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/yeast.png" alt="Yeastar Partner">
+                        <p>Authorized Distributor</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/dell-logo.jpg" alt="Dell">
+                        <p>Partner</p>
+                    </div>
+                    <div class="card">
+                        <img src="../public/images/brands/hp-logo.png" alt="HP">
+                        <p>Partner</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -193,11 +295,14 @@ $fishAfrica    = $mainSite . '/fishafrica';
         <div class="footer-grid">
             <div class="footer-brand">
                 <img src="public/images/logo/skywave-tech-logo.webp" alt="Skywave Technologies">
-                <p>Business communication solutions for Malawi.</p>
+                <p>Business communication solutions.</p>
             </div>
 
             <div class="footer-links">
                 <a href="<?= htmlspecialchars($mainAbout) ?>">About</a>
+                <a href="#offerings">Solutions</a>
+                <a href="#why">Why Choose Us</a>
+                <a href="#partners">Partners</a>
                 <a href="<?= htmlspecialchars($fishAfrica) ?>">Fish Africa</a>
                 <a href="<?= htmlspecialchars($mainContact) ?>">Contact</a>
             </div>
@@ -209,7 +314,7 @@ $fishAfrica    = $mainSite . '/fishafrica';
         </div>
         <div class="footer-bottom">
             <span>© <?= date('Y') ?> Skywave Technologies. All rights reserved.</span>
-            <span>Malawi · <a href="https://mw.skywavetech.co.zm/">mw.skywavetech.co.zm</a></span>
+            <span><a href="https://mw.skywavetech.co.zm/">mw.skywavetech.co.zm</a></span>
         </div>
     </footer>
 
