@@ -11,7 +11,6 @@ $mainAbout     = $mainSite . '/about';
 $mainProducts  = $mainSite . '/products';
 $mainServices  = $mainSite . '/services';
 $mainSolutions = $mainSite . '/solutions';
-$mainContact   = 'https://www.skywavetech.cloud/';
 $fishAfrica    = $mainSite . '/fishafrica';
 ?><!doctype html>
 <html lang="en-MW">
@@ -71,7 +70,6 @@ $fishAfrica    = $mainSite . '/fishafrica';
             <a href="#about">About</a>
             <a href="#offerings">Solutions</a>
             <a href="#why">Why Choose Us</a>
-            <a href="#partners">Partners</a>
             <a href="#fish-africa">Fish Africa</a>
             <a href="#contact">Contact</a>
             <a href="<?= htmlspecialchars($mainSite) ?>" class="zambia-btn">Skywave Zambia</a>
@@ -97,7 +95,7 @@ $fishAfrica    = $mainSite . '/fishafrica';
                     complete business telephony.
                 </p>
                 <div class="hero-actions">
-                    <a class="btn primary" href="<?= htmlspecialchars($mainContact) ?>">Contact our team</a>
+                    <a class="btn primary" href="#contact">Contact our team</a>
                     <a class="btn ghost" href="#about">About Skywave</a>
                 </div>
                 <p class="hero-note">
@@ -185,77 +183,6 @@ $fishAfrica    = $mainSite . '/fishafrica';
             </div>
         </section>
 
-        <!-- PARTNERS & BRANDS -->
-        <section class="section partners" id="partners">
-            <div class="section-head center">
-                <span class="section-label">Partners & Brands</span>
-                <h2>Technology partners we trust</h2>
-                <p class="section-sub">We work with industry-leading brands to deliver best-in-class solutions.</p>
-            </div>
-            <div class="logos-slider">
-                <div class="logos-row">
-                    <div class="card">
-                        <img src="../public/images/brands/Fanvil.jpeg" alt="Fanvil">
-                        <p>Authorized Solution Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/yealink.png" alt="Yealink">
-                        <p>Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/grand.png" alt="Grandstream">
-                        <p>Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/sang.png" alt="Sangoma">
-                        <p>Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/yeast.png" alt="Yeastar Partner">
-                        <p>Authorized Distributor</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/dell-logo.jpg" alt="Dell">
-                        <p>Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/hp-logo.png" alt="HP">
-                        <p>Partner</p>
-                    </div>
-
-                    <!-- duplicate set for smooth infinite loop -->
-                    <div class="card">
-                        <img src="../public/images/brands/Fanvil.jpeg" alt="Fanvil">
-                        <p>Authorized Solution Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/yealink.png" alt="Yealink">
-                        <p>Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/grand.png" alt="Grandstream">
-                        <p>Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/sang.png" alt="Sangoma">
-                        <p>Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/yeast.png" alt="Yeastar Partner">
-                        <p>Authorized Distributor</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/dell-logo.jpg" alt="Dell">
-                        <p>Partner</p>
-                    </div>
-                    <div class="card">
-                        <img src="../public/images/brands/hp-logo.png" alt="HP">
-                        <p>Partner</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- FISH AFRICA -->
         <section class="section fish" id="fish-africa">
             <div class="fish-card">
@@ -284,7 +211,7 @@ $fishAfrica    = $mainSite . '/fishafrica';
                     <p>Speak with the Skywave team about your project, infrastructure or support needs.</p>
                 </div>
                 <div class="contact-actions">
-                    <a class="btn light-btn" href="<?= htmlspecialchars($mainContact) ?>">Contact us</a>
+                    <a class="btn light-btn" href="mailto:info@skywavetech.co.zm">Contact us</a>
                 </div>
             </div>
         </section>
@@ -302,9 +229,8 @@ $fishAfrica    = $mainSite . '/fishafrica';
                 <a href="<?= htmlspecialchars($mainAbout) ?>">About</a>
                 <a href="#offerings">Solutions</a>
                 <a href="#why">Why Choose Us</a>
-                <a href="#partners">Partners</a>
                 <a href="<?= htmlspecialchars($fishAfrica) ?>">Fish Africa</a>
-                <a href="<?= htmlspecialchars($mainContact) ?>">Contact</a>
+                <a href="#contact">Contact</a>
             </div>
 
             <div class="footer-switch">
