@@ -78,13 +78,7 @@
       <section id="products" class="section fa-products">
         <div class="section-head">
           <h2>Our Communication Solutions</h2>
-          <div class="fa-solutions-intro">
-            <p>Fish Africa gives your business two powerful ways to connect with your audience: <strong>Text Messaging (SMS) and Voice Messaging</strong>, all managed from one easy-to-use platform.</p>
-            <p>Create and manage messaging campaigns, organise your contacts and keep your customer lists up to date, all in one place.</p>
-            <p>Track message delivery, monitor campaign performance and access clear reports to understand how your campaigns are performing and make informed decisions.</p>
-            <p>With API integration, you can also connect Fish Africa to your existing business systems, allowing you to automate messages and make customer communication part of your everyday operations.</p>
-            <p class="fa-intro-closing">One platform. Two powerful ways to connect. More opportunities to reach your customers.</p>
-          </div>
+          <p class="fa-solutions-intro">Fish Africa gives your business two powerful ways to connect with your audience: Text Messaging (SMS) and Voice Messaging, all managed from one easy-to-use platform. Create and manage messaging campaigns, organise your contacts and keep your customer lists up to date, all in one place. Track message delivery, monitor campaign performance and access clear reports to understand how your campaigns are performing and make informed decisions. With API integration, you can also connect Fish Africa to your existing business systems, allowing you to automate messages and make customer communication part of your everyday operations. One platform. Two powerful ways to connect. More opportunities to reach your customers.</p>
         </div>
 
         <div class="fa-grid">
