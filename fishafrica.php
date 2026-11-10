@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Skywave — Fish Africa Partner</title>
-  <meta name="description" content="Fish Africa by Skywave Technologies — Every customer conversation in one place. Bulk SMS and voice messaging for meaningful customer connections.">
+  <meta name="description" content="Fish Africa by Skywave Technologies — Every customer conversation in one place. Text messaging (SMS) and voice messaging for meaningful customer connections.">
   <link rel="stylesheet" href="public/css/fishafrica.css" type="text/css" media="all">
   <link rel="icon" type="image/png" href="public/images/logo/favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -30,7 +30,7 @@
           "@type": "WebPage",
           "name": "Fish Africa Partner – Skywave Technologies",
           "url": "https://skywave.com/fishafrica.php",
-          "description": "Fish Africa by Skywave Technologies — Messaging platform for bulk SMS and voice messaging across supported mobile networks."
+          "description": "Fish Africa by Skywave Technologies — Messaging platform for text messaging (SMS) and voice messaging across supported mobile networks."
       }
   </script>
 </head>
@@ -62,7 +62,7 @@
       <div class="hero-content">
         <div class="fa-badge">Partner Platform</div>
         <h1>Every customer conversation, in one place.</h1>
-        <p class="fa-subheadline">Built for meaningful customer connections with bulk SMS and voice messaging across supported mobile networks.</p>
+        <p class="fa-subheadline">Built for meaningful customer connections with Text Messaging (SMS) and Voice Messaging across supported mobile networks.</p>
         <div class="hero-ctas">
           <a href="https://skywave.letsfish.africa/register" class="btn primary fa-cta-primary">Start For Free</a>
           <a href="https://skywave.letsfish.africa/login" class="btn alt fa-cta-secondary">Sign In</a>
@@ -78,19 +78,25 @@
       <section id="products" class="section fa-products">
         <div class="section-head">
           <h2>Our Communication Solutions</h2>
-          <p class="fa-solutions-intro">Fish Africa gives your business two powerful ways to reach your audience, bulk SMS and voice messaging, both managed from one platform. You can organise contacts and messaging campaigns in a single place, keeping your audience lists accurate and up to date. You can monitor message delivery and measure campaign performance through clear reporting that supports better decisions. You can also connect Fish Africa messaging services to your existing business systems through APIs, so that communication fits seamlessly into how your organisation already works.</p>
+          <div class="fa-solutions-intro">
+            <p>Fish Africa gives your business two powerful ways to connect with your audience: <strong>Text Messaging (SMS) and Voice Messaging</strong>, all managed from one easy-to-use platform.</p>
+            <p>Create and manage messaging campaigns, organise your contacts and keep your customer lists up to date, all in one place.</p>
+            <p>Track message delivery, monitor campaign performance and access clear reports to understand how your campaigns are performing and make informed decisions.</p>
+            <p>With API integration, you can also connect Fish Africa to your existing business systems, allowing you to automate messages and make customer communication part of your everyday operations.</p>
+            <p class="fa-intro-closing">One platform. Two powerful ways to connect. More opportunities to reach your customers.</p>
+          </div>
         </div>
 
         <div class="fa-grid">
-          <!-- Bulk SMS -->
+          <!-- Text Messaging (SMS) -->
           <article class="fa-card">
             <div class="fa-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h4M8 12l2-2m-2 2l2 2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"/></svg>
             </div>
-            <h3>Bulk SMS</h3>
+            <h3>Text Messaging (SMS)</h3>
             <p>Reach thousands of customers in seconds. Send messages to customers, employees and business contacts with ease, from marketing campaigns to reminders and important announcements.</p>
             <ul class="fa-features">
-              <li>Bulk SMS across supported networks</li>
+              <li>Text Messaging (SMS) across supported networks</li>
               <li>Marketing &amp; promotional campaigns</li>
               <li>Appointment reminders &amp; notifications</li>
               <li>Business updates &amp; announcements</li>
@@ -219,7 +225,7 @@
       <section id="cta" class="section fa-cta">
         <div class="fa-cta-content">
           <h2>Ready to connect with your customers?</h2>
-          <p>Join businesses using Fish Africa to build meaningful customer relationships with bulk SMS and voice messaging.</p>
+          <p>Join businesses using Fish Africa to build meaningful customer relationships with text messaging and voice messaging.</p>
           <div class="fa-cta-buttons">
             <a href="https://skywave.letsfish.africa/register" class="btn primary fa-cta-btn" target="_blank" rel="noopener">Start For Free</a>
             <a href="https://skywave.letsfish.africa/login" class="btn alt fa-cta-btn" target="_blank" rel="noopener">Sign In</a>

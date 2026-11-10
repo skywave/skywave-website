@@ -552,6 +552,25 @@ header nav a.section-active::after {
     box-shadow: 0 14px 32px rgba(22, 59, 108, 0.14);
 }
 
+.fish-intro {
+    max-width: var(--max);
+    margin: 28px auto 0;
+}
+
+.fish-intro p {
+    color: var(--muted);
+    font-size: 0.97rem;
+    max-width: 900px;
+    margin-bottom: 14px;
+}
+
+.fish-intro-closing {
+    color: var(--blue) !important;
+    font-weight: 600;
+    font-size: 1.05rem !important;
+    margin-top: 6px;
+}
+
 /* ---------- Fish Africa content ---------- */
 
 .fish-actions {

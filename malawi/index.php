@@ -333,8 +333,8 @@ $mainSite = 'https://skywavetech.co.zm';
                 <span class="section-label">Also from Skywave</span>
                 <h2>Fish Africa customer messaging.</h2>
                 <p class="section-sub">
-                    Bulk SMS and voice messaging that help your organisation reach customers,
-                    share information and automate communication at scale.
+                    Text messaging and voice messaging that help your organisation reach
+                    customers, share information and automate communication at scale.
                 </p>
             </div>
 
@@ -342,10 +342,9 @@ $mainSite = 'https://skywavetech.co.zm';
                 <div class="fish-copy">
                     <h2>Every customer conversation, in one place.</h2>
                     <p>
-                        Fish Africa gives your business two ways to reach your audience — bulk SMS
-                        and voice messaging — both managed from one platform. Organise contacts and
-                        campaigns in a single place, track delivery and connect messaging to your
-                        existing business systems through APIs.
+                        Fish Africa gives your business two powerful ways to connect with your
+                        audience: <strong>Text Messaging (SMS) and Voice Messaging</strong>, all
+                        managed from one easy-to-use platform.
                     </p>
                     <div class="fish-actions">
                         <a class="btn primary" href="https://skywave.letsfish.africa/register" target="_blank" rel="noopener">Start for free</a>
@@ -358,12 +357,19 @@ $mainSite = 'https://skywavetech.co.zm';
                 </div>
             </div>
 
+            <div class="fish-intro">
+                <p>Create and manage messaging campaigns, organise your contacts and keep your customer lists up to date, all in one place.</p>
+                <p>Track message delivery, monitor campaign performance and access clear reports to understand how your campaigns are performing and make informed decisions.</p>
+                <p>With API integration, you can also connect Fish Africa to your existing business systems, allowing you to automate messages and make customer communication part of your everyday operations.</p>
+                <p class="fish-intro-closing">One platform. Two powerful ways to connect. More opportunities to reach your customers.</p>
+            </div>
+
             <div class="fish-grid">
                 <article class="fish-product">
-                    <h3>Bulk SMS</h3>
+                    <h3>Text Messaging (SMS)</h3>
                     <p>Reach thousands of customers in seconds — from marketing campaigns to reminders and important announcements.</p>
                     <ul>
-                        <li>Bulk SMS across supported networks</li>
+                        <li>Text Messaging (SMS) across supported networks</li>
                         <li>Marketing &amp; promotional campaigns</li>
                         <li>Appointment reminders &amp; notifications</li>
                         <li>Business updates &amp; announcements</li>
@@ -470,7 +476,7 @@ $mainSite = 'https://skywavetech.co.zm';
                     </div>
                     <div>
                         <dt>Customer messaging</dt>
-                        <dd>Fish Africa bulk SMS and voice messaging, including Chichewa and Tumbuka</dd>
+                        <dd>Fish Africa text messaging and voice messaging, including Chichewa and Tumbuka</dd>
                     </div>
                 </dl>
             </div>
@@ -483,7 +489,7 @@ $mainSite = 'https://skywavetech.co.zm';
                 </a>
                 <a class="resource-card" href="#fish-africa">
                     <h3>Fish Africa overview</h3>
-                    <p>How bulk SMS and voice messaging work, and who they are built for.</p>
+                    <p>How text messaging and voice messaging work, and who they are built for.</p>
                     <span>Explore Fish Africa →</span>
                 </a>
                 <a class="resource-card" href="#services">
@@ -540,7 +546,7 @@ $mainSite = 'https://skywavetech.co.zm';
                 <details>
                     <summary>What does Fish Africa do?</summary>
                     <p>
-                        Fish Africa is our customer messaging platform. It sends bulk SMS and
+                        Fish Africa is our customer messaging platform. It sends text messages and
                         pre-recorded voice messages to large audiences, tracks delivery, and can be
                         connected to your existing systems through APIs.
                     </p>
