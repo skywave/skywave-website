@@ -294,6 +294,29 @@ nav a:hover {
   color: #5f6c7b;
 }
 
+/* Active navigation state */
+nav a {
+  position: relative;
+}
+
+nav a.active,
+nav a.section-active {
+  color: var(--dark-blue);
+  font-weight: 600;
+}
+
+nav a.active::after,
+nav a.section-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+}
+
 .contact-btn {
   background: var(--dark-blue);
   color: white;
@@ -327,6 +350,14 @@ nav a:hover {
   }
   nav.show {
     display: flex;
+  }
+  nav a.active::after,
+  nav a.section-active::after {
+    display: none;
+  }
+  nav a.active,
+  nav a.section-active {
+    color: var(--blue);
   }
   .hamburger {
     display: block;

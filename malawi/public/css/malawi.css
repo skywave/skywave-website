@@ -143,6 +143,29 @@ header nav a:hover {
     opacity: 0.72;
 }
 
+/* Active navigation state */
+header nav a {
+    position: relative;
+}
+
+header nav a.active,
+header nav a.section-active {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+header nav a.active::after,
+header nav a.section-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 2px;
+    border-radius: 2px;
+    background: currentColor;
+}
+
 .zambia-btn {
     background: var(--blue);
     color: #fff !important;
@@ -689,6 +712,16 @@ footer {
     header nav a {
         color: var(--deep) !important;
         width: 100%;
+    }
+
+    header nav a.active::after,
+    header nav a.section-active::after {
+        display: none;
+    }
+
+    header nav a.active,
+    header nav a.section-active {
+        color: var(--blue) !important;
     }
 
     header nav .zambia-btn {

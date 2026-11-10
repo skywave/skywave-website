@@ -180,6 +180,33 @@ nav a.nav-active {
     font-weight: 600;
 }
 
+/* Active navigation state */
+nav a {
+    position: relative;
+}
+
+nav a.active,
+nav a.section-active {
+    font-weight: 600;
+}
+
+header.solid nav a.active,
+header.solid nav a.section-active {
+    color: var(--fa-teal);
+}
+
+nav a.active::after,
+nav a.section-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 2px;
+    border-radius: 2px;
+    background: currentColor;
+}
+
 .contact-btn { 
     background: var(--dark-blue); 
     color: white; 
@@ -213,6 +240,14 @@ nav a.nav-active {
     } 
     nav.show { 
         display: flex; 
+    } 
+    nav a.active::after, 
+    nav a.section-active::after { 
+        display: none; 
+    } 
+    nav a.active, 
+    nav a.section-active { 
+        color: var(--fa-teal); 
     } 
     .hamburger { 
         display: block; 

@@ -122,6 +122,7 @@
     </footer>
 
     <script src="public/js/services.js" type="text/javascript"></script>
+    <script src="public/js/nav.js" type="text/javascript"></script>
     <script defer="defer" type="text/javascript" src="https://skywavetechzm.odoo.com/im_livechat/loader/1"></script>        
     <script defer="defer" type="text/javascript" src="https://skywavetechzm.odoo.com/im_livechat/assets_embed.js"></script>
 </body>

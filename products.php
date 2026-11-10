@@ -143,5 +143,6 @@
     </footer>
 
     <script src="public/js/products.js" type="text/javascript"></script>
+    <script src="public/js/nav.js" type="text/javascript"></script>
 </body>
 </html>

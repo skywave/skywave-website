@@ -245,5 +245,6 @@ $fishAfrica    = $mainSite . '/fishafrica';
     </footer>
 
     <script src="/malawi/public/js/malawi.js" type="text/javascript"></script>
+    <script src="/malawi/public/js/nav.js" type="text/javascript"></script>
 </body>
 </html>
