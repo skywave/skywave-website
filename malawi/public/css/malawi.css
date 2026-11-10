@@ -35,6 +35,21 @@ img {
     max-width: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* Keep anchor targets clear of the fixed header. */
+section[id] {
+    scroll-margin-top: 96px;
+}
+
 a {
     color: inherit;
 }
@@ -233,6 +248,10 @@ header nav a.section-active::after {
     position: relative;
 }
 
+.section-label.light {
+    color: #bcd4f2;
+}
+
 .eyebrow::before {
     content: "";
     position: absolute;
@@ -281,6 +300,14 @@ header nav a.section-active::after {
 
 .section {
     padding: 88px 5%;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-light {
+    background: var(--light-bg);
 }
 
 .section-head {
@@ -525,67 +552,467 @@ header nav a.section-active::after {
     box-shadow: 0 14px 32px rgba(22, 59, 108, 0.14);
 }
 
+/* ---------- Fish Africa content ---------- */
+
+.fish-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.fish-grid {
+    max-width: var(--max);
+    margin: 28px auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.fish-product {
+    background: var(--light-bg);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 34px;
+}
+
+.fish-product h3,
+.fish-audience h3 {
+    color: var(--dark-blue);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.fish-product p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+}
+
+.fish-product ul,
+.fish-audience ul {
+    list-style: none;
+    display: grid;
+    gap: 8px;
+}
+
+.fish-product li {
+    position: relative;
+    padding-left: 26px;
+    color: var(--muted);
+    font-size: 0.94rem;
+}
+
+.fish-product li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 14px;
+    height: 8px;
+    border-left: 2px solid var(--blue);
+    border-bottom: 2px solid var(--blue);
+    transform: rotate(-45deg);
+}
+
+.fish-features {
+    max-width: var(--max);
+    margin: 32px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.fish-feature {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 26px;
+    box-shadow: var(--shadow);
+}
+
+.fish-feature h3 {
+    color: var(--dark-blue);
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+}
+
+.fish-feature p {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin: 0;
+}
+
+.fish-audience {
+    max-width: var(--max);
+    margin: 32px auto 0;
+    padding: 34px;
+    border-radius: var(--radius);
+    background: var(--light-bg);
+    border: 1px solid var(--line);
+}
+
+.fish-audience ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 28px;
+}
+
+.fish-audience li {
+    position: relative;
+    padding-left: 26px;
+    color: var(--muted);
+    font-size: 0.94rem;
+}
+
+.fish-audience li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 14px;
+    height: 8px;
+    border-left: 2px solid var(--blue);
+    border-bottom: 2px solid var(--blue);
+    transform: rotate(-45deg);
+}
+
+/* ---------- Resources ---------- */
+
+.profile-sheet {
+    max-width: var(--max);
+    margin: 0 auto 34px;
+    padding: 40px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.profile-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 18px;
+}
+
+.profile-head h3 {
+    color: var(--dark-blue);
+    font-size: 1.4rem;
+}
+
+.profile-sheet > p {
+    color: var(--muted);
+    margin-bottom: 24px;
+}
+
+.profile-facts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 32px;
+    margin: 0;
+}
+
+.profile-facts dt {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.profile-facts dd {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.94rem;
+}
+
+.print-btn {
+    flex-shrink: 0;
+    padding: 9px 16px;
+    font-size: 0.86rem;
+}
+
+.resource-grid {
+    max-width: var(--max);
+    margin: 0 auto 34px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.resource-card {
+    display: block;
+    padding: 26px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 42px rgba(14, 22, 34, 0.12);
+}
+
+.resource-card h3 {
+    color: var(--dark-blue);
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
+
+.resource-card p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 14px;
+}
+
+.resource-card span {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 0.88rem;
+}
+
+.faq {
+    max-width: var(--max);
+    margin: 0 auto;
+}
+
+.faq h3 {
+    color: var(--dark-blue);
+    font-size: 1.35rem;
+    margin-bottom: 18px;
+}
+
+.faq details {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 4px 22px;
+    margin-bottom: 12px;
+}
+
+.faq summary {
+    cursor: pointer;
+    padding: 16px 0;
+    font-weight: 600;
+    color: var(--dark-blue);
+    list-style: none;
+    position: relative;
+    padding-right: 30px;
+}
+
+.faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--blue);
+}
+
+.faq details[open] summary::after {
+    content: "–";
+}
+
+.faq details p {
+    color: var(--muted);
+    font-size: 0.94rem;
+    padding-bottom: 18px;
+    margin: 0;
+}
+
 /* ---------- Contact ---------- */
 
 .contact {
     background: #fff;
 }
 
-.contact-box {
+.contact-wrap {
     max-width: var(--max);
     margin: 0 auto;
-    padding: 58px;
+    display: grid;
+    grid-template-columns: 0.95fr 1.05fr;
+    gap: 32px;
+    align-items: stretch;
+}
+
+.contact-panel {
+    padding: 46px;
     border-radius: 24px;
     background: linear-gradient(135deg, var(--dark-blue), var(--blue));
     color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
 }
 
-.contact-box .section-label.light {
-    color: #bcd4f2;
-}
-
-.contact-box h2 {
+.contact-panel h2 {
     font-size: clamp(1.6rem, 2.7vw, 2.2rem);
     line-height: 1.2;
     letter-spacing: -0.02em;
-    margin-bottom: 10px;
-    max-width: 620px;
+    margin-bottom: 12px;
 }
 
-.contact-box p {
-    color: rgba(255, 255, 255, 0.8);
-    max-width: 560px;
+.contact-panel p {
+    color: rgba(255, 255, 255, 0.82);
+    max-width: 460px;
 }
 
-.contact-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    flex-shrink: 0;
+.contact-details {
+    display: grid;
+    gap: 18px;
+    margin-top: 30px;
 }
 
-.light-btn {
-    background: #fff;
-    color: var(--dark-blue);
+.contact-details span {
+    display: block;
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #bcd4f2;
+    margin-bottom: 4px;
 }
 
-.light-btn:hover {
-    background: #eef4fb;
-}
-
-.outline-light {
-    border-color: rgba(255, 255, 255, 0.55);
+.contact-details a {
     color: #fff;
-    background: transparent;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-.outline-light:hover {
-    background: rgba(255, 255, 255, 0.12);
+.contact-details a:hover {
+    border-bottom-color: #fff;
 }
+
+.contact-form {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: var(--shadow);
+}
+
+.field {
+    margin-bottom: 16px;
+}
+
+.field label {
+    display: block;
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: var(--dark-blue);
+    margin-bottom: 6px;
+}
+
+.field label span {
+    font-weight: 400;
+    color: var(--muted);
+}
+
+.field input,
+.field textarea {
+    width: 100%;
+    font: inherit;
+    font-size: 0.95rem;
+    color: var(--deep);
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--light-bg);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.field input:focus,
+.field textarea:focus {
+    outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 0 3px rgba(31, 77, 143, 0.14);
+    background: #fff;
+}
+
+.field textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+.hp-field {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.contact-form button {
+    border: none;
+}
+
+.form-message {
+    margin-top: 14px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    min-height: 1.2em;
+}
+
+.form-message.success {
+    color: #15803d;
+}
+
+.form-message.error {
+    color: #b91c1c;
+}
+
+/* ---------- Print (company profile) ---------- */
+
+@media print {
+    @page {
+        margin: 18mm;
+    }
+
+    header,
+    footer,
+    .hero,
+    #about,
+    #products,
+    #services,
+    #solutions,
+    #why,
+    #fish-africa,
+    #contact,
+    .resource-grid,
+    .faq {
+        display: none !important;
+    }
+
+    body {
+        background: #fff;
+    }
+
+    #resources {
+        padding: 0;
+    }
+
+    #resources .section-head,
+    .print-btn {
+        display: none !important;
+    }
+
+    .profile-sheet {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+    }
+}
+
 
 /* ---------- Footer ---------- */
 
@@ -668,27 +1095,7 @@ footer {
 
 /* ---------- Responsive ---------- */
 
-@media (max-width: 980px) {
-    header nav {
-        gap: 18px;
-    }
-
-    .fish-card {
-        grid-template-columns: 1fr;
-        gap: 28px;
-        padding: 28px;
-    }
-
-    .card-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .features {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 860px) {
+@media (max-width: 1080px) {
     header nav {
         display: none;
         position: absolute;
@@ -703,6 +1110,8 @@ footer {
         background: #fff;
         color: var(--deep);
         box-shadow: 0 18px 45px rgba(14, 22, 34, 0.16);
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
     }
 
     header nav.open {
@@ -724,18 +1133,45 @@ footer {
         color: var(--blue) !important;
     }
 
-    header nav .zambia-btn {
-        text-align: center;
-    }
-
     .hamburger {
         display: block;
     }
+}
 
-    .contact-box {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 42px;
+@media (max-width: 980px) {
+    .fish-card {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 28px;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fish-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fish-features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .resource-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .profile-facts {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .contact-wrap {
+        grid-template-columns: 1fr;
     }
 
     .partners .card {
@@ -744,6 +1180,21 @@ footer {
 
     .partners .card img {
         height: 90px;
+    }
+}
+
+@media (max-width: 860px) {
+    .profile-head {
+        flex-direction: column;
+    }
+
+    .fish-audience ul {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-panel,
+    .contact-form {
+        padding: 32px;
     }
 }
 
@@ -765,7 +1216,9 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .features {
+    .features,
+    .fish-features,
+    .resource-grid {
         grid-template-columns: 1fr;
     }
 
