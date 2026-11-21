@@ -1,0 +1,239 @@
+/* =========================================================
+   SKYWAVE OFFERINGS PAGES (Products, Solutions, Services)
+   Loaded AFTER fishafrica.css, which provides the shared look:
+   header, buttons, .fa-card, .fa-feature-card, .fa-cta, footer.
+   This file only adds what those pages need on top.
+   ========================================================= */
+
+/* ---------- Hero variants ---------- */
+.sw-hero--solutions {
+    background: linear-gradient(135deg, rgba(15, 22, 34, 0.82) 0%, rgba(31, 77, 143, 0.7) 55%, rgba(13, 148, 136, 0.55) 100%),
+        url("../images/heroslide/hero3.png") center/cover no-repeat;
+}
+
+.sw-hero--services {
+    background: linear-gradient(135deg, rgba(15, 22, 34, 0.85) 0%, rgba(31, 77, 143, 0.72) 55%, rgba(13, 148, 136, 0.55) 100%),
+        url("../images/heroslide/hero7.png") center/cover no-repeat;
+}
+
+/* Products: text on the left, product photo on the right */
+.sw-hero--split {
+    background: linear-gradient(135deg, #0e1622 0%, #163b6c 55%, #0f766e 100%);
+    text-align: left;
+}
+
+.sw-hero--split .hero-content {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 56px;
+    align-items: center;
+}
+
+.sw-hero--split .fa-subheadline {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.sw-hero--split .hero-ctas {
+    justify-content: flex-start;
+}
+
+.sw-hero-media {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+    background: #e9edf2;
+}
+
+.sw-hero-media img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ---------- Cards ---------- */
+.sw-page .fa-card > p {
+    flex: none;
+}
+
+.sw-page .fa-features {
+    margin-bottom: 24px;
+}
+
+.fa-card-link {
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    color: var(--fa-teal-dark);
+    text-decoration: none;
+    align-self: flex-start;
+}
+
+.fa-card-link::after {
+    content: "\2192";
+    transition: transform 0.2s ease;
+}
+
+.fa-card-link:hover::after {
+    transform: translateX(4px);
+}
+
+.fa-card-link:hover {
+    color: var(--dark-blue);
+}
+
+/* Three-up layout; a short last row is centred */
+.sw-grid-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sw-grid-3 > .fa-card {
+    flex: 1 1 300px;
+    max-width: 381px;
+}
+
+/* ---------- Brands strip (Products) ---------- */
+.sw-brands {
+    padding: 80px 5%;
+    background: var(--light-bg);
+}
+
+.sw-brand-grid {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.sw-brand-grid li {
+    flex: 0 1 140px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: var(--radius);
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.sw-brand-grid li:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow);
+    border-color: var(--fa-teal);
+}
+
+.sw-brand-grid img {
+    max-width: 100%;
+    max-height: 56px;
+    object-fit: contain;
+}
+
+/* ---------- Process steps (Solutions) ---------- */
+.sw-process {
+    padding: 80px 5%;
+    background: var(--light-bg);
+}
+
+.sw-steps {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+    counter-reset: step;
+}
+
+.sw-steps li {
+    counter-increment: step;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: var(--radius);
+    padding: 28px;
+    position: relative;
+}
+
+.sw-steps li::before {
+    content: counter(step, decimal-leading-zero);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--fa-teal-light);
+    color: var(--fa-teal-dark);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.sw-steps h3 {
+    font-size: 1.15rem;
+    color: var(--dark-blue);
+    margin-bottom: 8px;
+}
+
+.sw-steps p {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+/* ---------- CTA section ---------- */
+.sw-page .fa-cta-content p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 32px;
+    line-height: 1.7;
+}
+
+.sw-page footer {
+    margin-top: 0;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+    .sw-hero--split .hero-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .sw-hero--split .fa-subheadline {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sw-hero--split .hero-ctas {
+        justify-content: center;
+    }
+
+    .sw-hero-media {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .sw-grid-3 > .fa-card {
+        max-width: none;
+    }
+
+    .sw-brand-grid li {
+        flex-basis: calc(50% - 8px);
+    }
+
+    .fa-grid {
+        grid-template-columns: 1fr;
+    }
+}

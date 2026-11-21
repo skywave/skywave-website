@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Skywave — About Us</title>
   <meta name="description" content="Skywave Technologies provides reliable, secure, and scalable business communication solutions — from VoIP to contact center systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="public/css/about.css" type="text/css" media="all">
    <link rel="icon" type="image/png" href="public/images/logo/favicon.png">
    <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -43,7 +46,9 @@
         <nav id="navMenu">
         <a href="index">Home</a>
         <a href="about">About</a>
-        <a href="index#offerings">Solutions</a>
+        <a href="products">Products</a>
+        <a href="solutions">Solutions</a>
+        <a href="services">Services</a>
         <a href="index#why">Why Us</a>
         <a href="https://www.skywavetech.cloud/blog/our-blog-1">Resources</a>
         <a href="fishafrica">Fish Africa</a>
@@ -154,14 +159,16 @@
         <div style="font-weight:700;">SKYWAVE</div>
         <div class="footer-links">
           <a href="about">About</a>
-          <a href="#offerings">Solutions</a>
-          <a href="#why">Why Us</a>
+          <a href="products">Products</a>
+          <a href="solutions">Solutions</a>
+          <a href="services">Services</a>
+          <a href="index#why">Why Us</a>
           <a href="https://www.skywavetech.cloud/blog/our-blog-1">Resources</a>
           <a href="fishafrica">Fish Africa</a>
         </div>
         <div class="footer-right">
           <a href="index#contact">Contact Us</a>
-          <div>Privacy Policy</div>
+          <div>&copy; <?php echo date('Y'); ?> Skywave Technologies</div>
         </div>
       </div>
     </footer>

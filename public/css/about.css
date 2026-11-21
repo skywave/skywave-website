@@ -116,7 +116,7 @@ nav a.section-active::after {
 
 .hamburger { display: none; font-size: 1.5rem; background: none; border: none; color: inherit; } 
 
-@media (max-width: 850px) { nav { display: none; flex-direction: column; position: absolute; top: 70px; right: 5%; background: white; padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow); color: var(--dark-blue); } nav.show { display: flex; } nav a.active::after, nav a.section-active::after { display: none; } nav a.active, nav a.section-active { color: var(--blue); } .hamburger { display: block; } }
+@media (max-width: 960px) { nav { display: none; flex-direction: column; position: absolute; top: 70px; right: 5%; background: white; padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow); color: var(--dark-blue); } nav.show { display: flex; } nav a.active::after, nav a.section-active::after { display: none; } nav a.active, nav a.section-active { color: var(--blue); } .hamburger { display: block; } }
 
 /* Fade-in animation */ 
 .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; } 

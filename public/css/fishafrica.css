@@ -231,7 +231,7 @@ nav a.section-active::after {
     color: inherit; 
 } 
 
-@media (max-width: 850px) { 
+@media (max-width: 960px) { 
     nav { 
         display: none; 
         flex-direction: column; 
@@ -330,7 +330,7 @@ nav a.section-active::after {
     margin-bottom: 24px;
 }
 
-.fa-cta-primary {
+.btn.primary.fa-cta-primary {
     background: var(--fa-teal);
     border-color: var(--fa-teal);
     color: white;
@@ -338,7 +338,7 @@ nav a.section-active::after {
     font-size: 1.05rem;
 }
 
-.fa-cta-primary:hover {
+.btn.primary.fa-cta-primary:hover {
     background: var(--fa-teal-dark);
     border-color: var(--fa-teal-dark);
     transform: translateY(-3px);

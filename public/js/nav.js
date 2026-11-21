@@ -33,11 +33,8 @@
   var sectionLinks = [];
 
   // Pages that have no tab of their own highlight their closest parent tab.
-  var NAV_ALIASES = {
-    products: "index#offerings",
-    services: "index#offerings",
-    solutions: "index#offerings"
-  };
+  // (Products, Solutions and Services now have their own tabs.)
+  var NAV_ALIASES = {};
 
   links.forEach(function (link) {
     var raw = (link.getAttribute("href") || "").trim();

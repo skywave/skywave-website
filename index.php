@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Skywave — Making Business Communication Simple, Easy, Relevant</title>
   <meta name="description" content="Skywave Technologies provides reliable, secure, and scalable business communication solutions — from VoIP to contact center systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="public/css/index.css" type="text/css" media="all">
     <link rel="icon" type="image/png" href="public/images/logo/favicon.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -44,7 +47,9 @@
         <nav id="navMenu">
         <a href="index">Home</a>
         <a href="about">About</a>
-        <a href="index#offerings">Solutions</a>
+        <a href="products">Products</a>
+        <a href="solutions">Solutions</a>
+        <a href="services">Services</a>
         <a href="index#why">Why Us</a>
         <a href="https://www.skywavetech.cloud/blog/our-blog-1">Resources</a>
         <a href="fishafrica">Fish Africa</a>
@@ -233,7 +238,7 @@
       <img src="public/images/logo/customers/yango.jpg" alt="Yango">
       <img class="large-logo" src="public/images/logo/customers/wg.webp" alt="Wonderfulgroup">
       <img class="large-logo2" src="public/images/logo/customers/chaminuka.jpg" alt="Chaminuka">
-      <img class="large-logo" src="public/images/logo/customers/Kwacha Loans LImited.png" alt="Kwacha Loans Limited">
+      <img class="large-logo" src="public/images/logo/customers/Kwacha Loans Limited.png" alt="Kwacha Loans Limited">
       <img class="large-logo2" src="public/images/logo/customers/fremlex.jpg" alt="FREMLEX">
       <img class="large-logo2" src="public/images/logo/customers/amz.jpg" alt="AMZ">
       <img class="large-logo2" src="public/images/logo/customers/ecobank.jpg" alt="EcoBank">
@@ -245,7 +250,7 @@
       <img class="large-logo2" src="public/images/logo/customers/simba.jpg" alt="SIMBA">
       <img class="large-logo2" src="public/images/logo/customers/dlp.jpg" alt="DLP">
       <img class="large-logo2" src="public/images/logo/customers/status.png" alt="STATUS">
-      <img class="large-logo2" src="public/images/logo/customers/pioneer.jpg" alt="PIONEER">
+      <img class="large-logo2" src="public/images/logo/customers/Pioneer.jpg" alt="PIONEER">
       <img class="large-logo" src="public/images/logo/customers/lolc.jpg" alt="LOLC">
       <img class="large-logo2" src="public/images/logo/customers/sda.png" alt="SDA">
       <img class="large-logo" src="public/images/logo/customers/shreeji.png" alt="SHREEJI">
@@ -267,7 +272,7 @@
       <img src="public/images/logo/customers/yango.jpg" alt="Yango">
       <img class="large-logo" src="public/images/logo/customers/wg.webp" alt="Wonderfulgroup">
       <img class="large-logo2" src="public/images/logo/customers/chaminuka.jpg" alt="Chaminuka">
-      <img class="large-logo" src="public/images/logo/customers/Kwacha Loans LImited.png" alt="Kwacha Loans Limited">
+      <img class="large-logo" src="public/images/logo/customers/Kwacha Loans Limited.png" alt="Kwacha Loans Limited">
       <img class="large-logo2" src="public/images/logo/customers/fremlex.jpg" alt="FREMLEX">
       <img class="large-logo2" src="public/images/logo/customers/amz.jpg" alt="AMZ">
       <img class="large-logo2" src="public/images/logo/customers/ecobank.jpg" alt="EcoBank">
@@ -279,7 +284,7 @@
       <img class="large-logo2" src="public/images/logo/customers/simba.jpg" alt="SIMBA">
       <img class="large-logo2" src="public/images/logo/customers/dlp.jpg" alt="DLP">
       <img class="large-logo2" src="public/images/logo/customers/status.png" alt="STATUS">
-      <img class="large-logo2" src="public/images/logo/customers/pioneer.jpg" alt="PIONEER">
+      <img class="large-logo2" src="public/images/logo/customers/Pioneer.jpg" alt="PIONEER">
       <img class="large-logo" src="public/images/logo/customers/lolc.jpg" alt="LOLC">
       <img class="large-logo2" src="public/images/logo/customers/sda.png" alt="SDA">
       <img class="large-logo" src="public/images/logo/customers/shreeji.png" alt="SHREEJI">
@@ -442,15 +447,17 @@
       <div class="footer-grid">
         <div style="font-weight:700;">SKYWAVE</div>
         <div class="footer-links">
-          <a href="about.php">About</a>
-          <a href="#offerings">Solutions</a>
-          <a href="#why">Why Us</a>
+          <a href="about">About</a>
+          <a href="products">Products</a>
+          <a href="solutions">Solutions</a>
+          <a href="services">Services</a>
+          <a href="index#why">Why Us</a>
           <a href="https://www.skywavetech.cloud/blog/our-blog-1">Resources</a>
           <a href="fishafrica">Fish Africa</a>
         </div>
         <div class="footer-right">
           <a href="#contact">Contact Us</a>
-          <div>Privacy Policy</div>
+          <div>&copy; <?php echo date('Y'); ?> Skywave Technologies</div>
         </div>
       </div>
     </footer>
